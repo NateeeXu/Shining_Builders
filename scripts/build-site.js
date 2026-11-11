@@ -467,114 +467,97 @@ function renderIndexHTML() {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Shining Builders discovers what AI builders are saying and what they are building across Builder Signals and GitHub Weekly Stars.">
     <title>Shining Builders</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <nav class="topbar" aria-label="Top navigation">
-        <a class="brand" href="./" aria-label="Shining Builders home">
-          <span class="brand-mark">SB</span>
-          <span>Shining Builders</span>
-        </a>
-        <div class="topnav" aria-label="Sections">
-          <a href="#builder-signals">Builder Signals</a>
-          <a href="#github-stars">GitHub Weekly Stars</a>
-          <a href="#practical-tools">Practical Tools</a>
-        </div>
-        <div class="status-pill">
-          <span class="status-dot"></span>
-          <span id="lastUpdated">Loading feeds...</span>
-        </div>
-      </nav>
-
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">AI builder intelligence, rebuilt daily</p>
-          <h1>Shining Builders</h1>
-          <p class="hero-subtitle">Discover what AI builders are saying and what they are building.</p>
-        </div>
-        <div class="hero-panel" aria-label="Feed snapshot">
-          <span class="panel-label">Signals</span>
-          <strong id="heroSignalsTotal">0</strong>
-          <span>builder updates</span>
-          <span class="panel-divider"></span>
-          <span class="panel-label">GitHub</span>
-          <strong id="heroReposTotal">0</strong>
-          <span>weekly repos</span>
-        </div>
-      </section>
+    <header class="masthead">
+      <div class="masthead-row">
+        <a class="wordmark" href="./">Shining Builders</a>
+        <nav class="sections-nav" aria-label="Sections">
+          <a href="#builder-signals">Builder Signals <span id="navSignalsCount"></span></a>
+          <a href="#github-stars">GitHub Weekly Stars <span id="navReposCount"></span></a>
+          <a href="#practical-tools">Practical Tools <span id="navToolsCount"></span></a>
+        </nav>
+      </div>
+      <p class="dateline">
+        <span id="todayDate"></span>
+        <span id="lastUpdated">Loading feeds...</span>
+      </p>
+      <p class="feed-notice" id="feedNotice" hidden></p>
     </header>
 
     <main>
-      <section class="stats-grid" id="statsGrid" aria-label="Site statistics"></section>
+      <section class="lead" id="leadSignal" aria-label="Today in brief"></section>
 
-      <section class="section-block" id="builder-signals">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Builder Signals</p>
-            <h2>What builders are saying</h2>
-          </div>
-          <label class="high-score-toggle">
-            <input type="checkbox" id="signalsHighScoreOnly">
-            <span>High score</span>
-          </label>
+      <section class="section" id="builder-signals" aria-labelledby="signalsHeading">
+        <div class="section-head">
+          <h2 id="signalsHeading">Builder Signals</h2>
+          <p>Posts and podcasts from the builders this feed follows, ranked by topic, freshness and engagement. Highlighted words are what the ranking picked up on.</p>
         </div>
 
-        <div class="signal-highlights" id="signalHighlights"></div>
+        <div class="overview-wrap" id="signalsOverview"></div>
 
-        <div class="controls">
+        <div class="filters">
           <div class="search-wrap">
             <svg aria-hidden="true" viewBox="0 0 24 24">
               <path d="M10.8 4.5a6.3 6.3 0 1 1 0 12.6 6.3 6.3 0 0 1 0-12.6Zm0 1.8a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm5.2 10 4 4-1.3 1.3-4-4 1.3-1.3Z"></path>
             </svg>
-            <input id="signalsSearchInput" type="search" placeholder="Search builders, topics, launches..." autocomplete="off">
+            <input id="signalsSearchInput" type="search" placeholder="Search builders, topics, launches" autocomplete="off" aria-label="Search Builder Signals">
           </div>
+          <label class="toggle">
+            <input type="checkbox" id="signalsHighScoreOnly">
+            <span>Score <span id="signalsThreshold">65</span>+ only</span>
+          </label>
           <div class="tabs" id="signalsCategoryTabs" role="tablist" aria-label="Builder Signal categories"></div>
         </div>
 
-        <div class="results-meta" id="signalsResultsMeta"></div>
-        <div class="items-grid" id="signalsGrid"></div>
+        <p class="results-meta" id="signalsResultsMeta"></p>
+        <ol class="builder-list" id="signalsGrid"></ol>
       </section>
 
-      <section class="section-block" id="github-stars">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">GitHub Weekly Stars</p>
-            <h2>Fast-moving AI projects</h2>
-          </div>
-          <label class="high-score-toggle">
-            <input type="checkbox" id="reposHighScoreOnly">
-            <span>High score repos</span>
-          </label>
+      <section class="section" id="github-stars" aria-labelledby="reposHeading">
+        <div class="section-head">
+          <h2 id="reposHeading">GitHub Weekly Stars</h2>
+          <p>Public AI repos that are gaining stars fastest. Bars show stars gained since the previous scan.</p>
         </div>
 
-        <div class="controls">
+        <div class="filters">
           <div class="search-wrap">
             <svg aria-hidden="true" viewBox="0 0 24 24">
               <path d="M10.8 4.5a6.3 6.3 0 1 1 0 12.6 6.3 6.3 0 0 1 0-12.6Zm0 1.8a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm5.2 10 4 4-1.3 1.3-4-4 1.3-1.3Z"></path>
             </svg>
-            <input id="reposSearchInput" type="search" placeholder="Search repos, topics, languages..." autocomplete="off">
+            <input id="reposSearchInput" type="search" placeholder="Search repos, topics, languages" autocomplete="off" aria-label="Search GitHub repos">
           </div>
+          <label class="toggle">
+            <input type="checkbox" id="reposHighScoreOnly">
+            <span>Score <span id="reposThreshold">80</span>+ only</span>
+          </label>
           <div class="tabs" id="reposCategoryTabs" role="tablist" aria-label="GitHub repo categories"></div>
         </div>
 
-        <div class="results-meta" id="reposResultsMeta"></div>
-        <div class="repo-grid" id="reposGrid"></div>
+        <p class="results-meta" id="reposResultsMeta"></p>
+        <ol class="repo-list" id="reposGrid"></ol>
+        <div class="more-row" id="reposMoreRow" hidden>
+          <span id="reposShowing"></span>
+          <button class="more-button" id="reposMoreButton" type="button">Show more repos</button>
+        </div>
       </section>
 
-      <section class="section-block" id="practical-tools">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Practical Tools</p>
-            <h2>Useful repos worth trying</h2>
-          </div>
+      <section class="section" id="practical-tools" aria-labelledby="toolsHeading">
+        <div class="section-head">
+          <h2 id="toolsHeading">Practical Tools</h2>
+          <p>High-scoring repos for AI coding, agents, MCP, workflows and developer tooling that you can try today.</p>
         </div>
-        <div class="repo-grid compact" id="toolsGrid"></div>
+        <div class="picks" id="toolsGrid"></div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Built from public feeds and the GitHub REST API. No OpenAI API. No paid APIs.</span>
+      <p>Built daily from public builder feeds and the GitHub REST API.</p>
+      <a href="https://github.com/NateeeXu/follow-builders-feishu">Source on GitHub</a>
     </footer>
 
     <script src="./app.js" type="module"></script>
