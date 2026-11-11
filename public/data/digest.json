@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-11-11T20:59:24.144Z",
+  "sourceGeneratedAt": "2026-11-11T20:58:53.267Z",
+  "model": "claude-haiku-5-5",
+  "language": "English",
+  "brief": "Today's posts centered on Claude's new product updates, including Claude Data, Whiteboards, Sheets and interactive connectors, alongside Gemini 4 Carbon's launch and early reviews. Vercel's security review and Peter Steinberger's post on 35,000 newly found vulnerabilities also drew attention to AI-driven security scanning.",
+  "themes": [
+    {
+      "label": "Claude product updates",
+      "summary": "Builders pointed to Claude Data becoming generally available, plus interactive connectors that open tools like Adobe, Atlassian and Box inside Claude.",
+      "postIds": [
+        "tweet-2120206372478566799",
+        "tweet-2120206375137484875",
+        "tweet-2120206379315261702",
+        "tweet-2120261416733036905"
+      ]
+    },
+    {
+      "label": "Gemini 4 Carbon",
+      "summary": "Dan Shipper's team tested Gemini 4 Carbon, finding it a stronger coder than Argon but not always knowing when to stop, while Josh Woodward noted its rollout to Ultra subscribers.",
+      "postIds": [
+        "tweet-2120187507396530309",
+        "tweet-2120186249281778135",
+        "tweet-2120186731114778688",
+        "tweet-2120294319773073919"
+      ]
+    },
+    {
+      "label": "AI-driven security scanning",
+      "summary": "Builders described AI agents finding and fixing large numbers of vulnerabilities, from Vercel's security review to a company's re-run with GPT-6 Astra.",
+      "postIds": [
+        "tweet-2120188488628977819",
+        "tweet-2120228665946710248"
+      ]
+    }
+  ],
+  "builders": [
+    {
+      "name": "Aaron Levie",
+      "summary": "Argued that agent swarms will separate teams that adopt them from those that don't. He also announced a Box and Anthropic partnership for read/write access to Box files through Claude via MCP."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Reported that Vercel Security Review found 57,897 vulnerabilities in under a week, with an agent patching 14,665 of them. He also said new programming languages will emerge with agents."
+    },
+    {
+      "name": "Claude",
+      "summary": "Announced Claude Data is generally available on paid plans, and rolled out interactive connectors and Whiteboards, Sheets and Data updates."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Published a day-zero vibe check of Gemini 4 Carbon from testing at Every, including a coding benchmark and a nearly 4.5-hour run that overreached its task list."
+    },
+    {
+      "name": "Latent Space",
+      "summary": "Published a podcast with Zeno Rocha of Resend on designing for agents, covering Resend's growth to 4.3 million users."
+    },
+    {
+      "name": "Peter Steinberger",
+      "summary": "Shared a report that a company's re-run of diagnostics with GPT-6 Astra confirmed 35,000 new vulnerabilities after earlier fixes."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Asked Zeno Rocha why agents keep choosing Resend, and teased a keynote at the AIE live stream on Thursday."
+    },
+    {
+      "name": "Ryo Lu",
+      "summary": "Posted that people working together is where the magic happens rather than siloed agents, and shared a few personal reflections."
+    },
+    {
+      "name": "Thariq",
+      "summary": "Said the field needs fewer one-shot demos and more tools for collaborating with models."
+    },
+    {
+      "name": "Josh Woodward",
+      "summary": "Announced that Gemini 4 Carbon is available to Ultra subscribers worldwide in the Gemini app."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Recommended a Railway post-mortem as a must read for infra providers, and posted some personal and minor items."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Posted brief, engagement-style messages about small businesses and labs innovating together, with no substantive content."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Praised Anthropic's focus on accelerating disease cures and defended tasteful use of AI in game development."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Posted a single short reply that the most successful friends tend to have the most intense hobbies."
+    },
+    {
+      "name": "Zara Zhang",
+      "summary": "Shared two short product tips: share work in progress early, and most users who don't return have forgotten the product exists."
+    },
+    {
+      "name": "Nan Yu",
+      "summary": "Highlighted a dictation app's support for the Apple dictation key and several shortcut modes."
+    }
+  ]
+}
