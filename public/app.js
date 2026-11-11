@@ -1,7 +1,6 @@
 const DATA_PATHS = {
   signals: './data/latest.json',
   repos: './data/github-weekly.json',
-  history: './data/github-stars-history.json',
   digest: './data/digest.json'
 };
 const ALL_CATEGORY = 'All';
@@ -40,7 +39,6 @@ feature features app apps users user world future thanks thank software computer
 const state = {
   signals: null,
   repos: null,
-  history: null,
   digest: null,
   signalsCategory: ALL_CATEGORY,
   signalsTheme: null,
@@ -993,16 +991,16 @@ function recordFetchResult(result, stateKey, source, path) {
 }
 
 async function init() {
-  const [signalsResult, reposResult, historyResult, digestResult] = await Promise.allSettled([
+  // github-stars-history.json (5+ MB) is only an input for the build script's
+  // weekly-star math; the page never needs it, so it isn't loaded here.
+  const [signalsResult, reposResult, digestResult] = await Promise.allSettled([
     fetchJSON('Builder Signals', DATA_PATHS.signals),
     fetchJSON('GitHub Weekly Stars', DATA_PATHS.repos),
-    fetchJSON('GitHub Stars History', DATA_PATHS.history),
     fetchJSON('Claude digest', DATA_PATHS.digest)
   ]);
 
   recordFetchResult(signalsResult, 'signals', 'Builder Signals', DATA_PATHS.signals);
   recordFetchResult(reposResult, 'repos', 'GitHub Weekly Stars', DATA_PATHS.repos);
-  recordFetchResult(historyResult, 'history', 'GitHub Stars History', DATA_PATHS.history);
 
   // The digest is optional: without it the page uses its rule-based summary,
   // so a missing file is not reported as a feed issue.
