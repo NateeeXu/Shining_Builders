@@ -10,7 +10,9 @@
     "build-github-stars": "node build-github-stars.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
     "dotenv": "^16.4.0",
-    "proper-lockfile": "^4.1.0"
+    "proper-lockfile": "^4.1.0",
+    "zod": "^4.6.7"
   }
 }
