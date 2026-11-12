@@ -1,7 +1,7 @@
 {
   "site": "Shining Builders",
   "module": "Builder Signals",
-  "generatedAt": "2026-11-11T20:58:53.267Z",
+  "generatedAt": "2026-11-12T05:09:27.662Z",
   "timezone": "Asia/Shanghai",
   "feedGeneratedAt": "2026-11-11T06:28:17.628Z",
   "categories": [
@@ -49,17 +49,17 @@
   },
   "highlights": [
     "tweet-2120385739342897469",
-    "tweet-2120337388178379178",
     "tweet-2120261416733036905",
     "tweet-2120206372478566799",
     "tweet-2120188488628977819",
     "tweet-2120187507396530309",
+    "tweet-2120337388178379178",
     "podcast-01a1c6f7-44d3-7eaf-95ea-cb9de51baff2",
     "tweet-2120228665946710248",
     "tweet-2120260228902264872",
-    "tweet-2120337691661443081",
     "tweet-2120206375137484875",
-    "tweet-2120223476279869875"
+    "tweet-2120223476279869875",
+    "tweet-2120337691661443081"
   ],
   "items": [
     {
@@ -84,27 +84,6 @@
       "isHighlight": true
     },
     {
-      "id": "tweet-2120337388178379178",
-      "type": "tweet",
-      "title": "Rust is a superb language and ecosystem, especially given it was invented pre agentic coding",
-      "text": "Rust is a superb language and ecosystem, especially given it was invented pre agentic coding. With agents, new languages will blossom, even purpose-built ones for specific usecases, and discretionary C or even LLVM IR, assembly… AI is fluid. No more one-size-fits-all. https://t.co/YTwRelXWCW",
-      "summary": "Rust is a superb language and ecosystem, especially given it was invented pre agentic coding. With agents, new languages will blossom, even purpose-built ones for specific usecases, and discretionary C or even LLVM IR,...",
-      "author": "Guillermo Rauch",
-      "source": "@rauchg",
-      "url": "https://x.com/rauchg/status/2120337388178379178",
-      "publishedAt": "2026-11-11T02:06:41.000Z",
-      "likes": 518,
-      "category": "AI Coding",
-      "score": 100,
-      "reason": "mentions coding / agents; published within 24 hours; source link available; body includes links; strong engagement",
-      "matchedKeywords": [
-        "coding",
-        "agents"
-      ],
-      "rank": 2,
-      "isHighlight": true
-    },
-    {
       "id": "tweet-2120261416733036905",
       "type": "tweet",
       "title": "Agents are going to work with enterprise files 100X more than people do today",
@@ -117,7 +96,7 @@
       "likes": 166,
       "category": "Agents / Workflow",
       "score": 100,
-      "reason": "mentions agent / agents / workflow / mcp; published within 24 hours; source link available; strong engagement",
+      "reason": "mentions agent / agents / workflow / mcp; published within 48 hours; source link available; strong engagement",
       "matchedKeywords": [
         "agent",
         "agents",
@@ -126,7 +105,7 @@
         "enterprise",
         "claude"
       ],
-      "rank": 3,
+      "rank": 2,
       "isHighlight": true
     },
     {
@@ -148,7 +127,7 @@
         "beta",
         "claude"
       ],
-      "rank": 4,
+      "rank": 3,
       "isHighlight": true
     },
     {
@@ -169,7 +148,7 @@
         "agent",
         "launch"
       ],
-      "rank": 5,
+      "rank": 4,
       "isHighlight": true
     },
     {
@@ -190,6 +169,27 @@
         "coding",
         "benchmark",
         "gemini"
+      ],
+      "rank": 5,
+      "isHighlight": true
+    },
+    {
+      "id": "tweet-2120337388178379178",
+      "type": "tweet",
+      "title": "Rust is a superb language and ecosystem, especially given it was invented pre agentic coding",
+      "text": "Rust is a superb language and ecosystem, especially given it was invented pre agentic coding. With agents, new languages will blossom, even purpose-built ones for specific usecases, and discretionary C or even LLVM IR, assembly… AI is fluid. No more one-size-fits-all. https://t.co/YTwRelXWCW",
+      "summary": "Rust is a superb language and ecosystem, especially given it was invented pre agentic coding. With agents, new languages will blossom, even purpose-built ones for specific usecases, and discretionary C or even LLVM IR,...",
+      "author": "Guillermo Rauch",
+      "source": "@rauchg",
+      "url": "https://x.com/rauchg/status/2120337388178379178",
+      "publishedAt": "2026-11-11T02:06:41.000Z",
+      "likes": 518,
+      "category": "AI Coding",
+      "score": 98,
+      "reason": "mentions coding / agents; published within 48 hours; source link available; body includes links; strong engagement",
+      "matchedKeywords": [
+        "coding",
+        "agents"
       ],
       "rank": 6,
       "isHighlight": true
@@ -249,32 +249,12 @@
       "publishedAt": "2026-11-10T21:00:05.000Z",
       "likes": 83,
       "category": "Agents / Workflow",
-      "score": 84,
-      "reason": "mentions agents; published within 24 hours; source link available; body includes links; strong engagement",
+      "score": 78,
+      "reason": "mentions agents; published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [
         "agents"
       ],
       "rank": 9,
-      "isHighlight": true
-    },
-    {
-      "id": "tweet-2120337691661443081",
-      "type": "tweet",
-      "title": "working together with other humans is where the magic happens, not each of us running our own a...",
-      "text": "working together with other humans is where the magic happens, not each of us running our own army of agents in silos glad to see this come alive 💛 https://t.co/rGFJITKBNH",
-      "summary": "working together with other humans is where the magic happens, not each of us running our own army of agents in silos glad to see this come alive 💛",
-      "author": "Ryo Lu",
-      "source": "@ryolu_",
-      "url": "https://x.com/ryolu_/status/2120337691661443081",
-      "publishedAt": "2026-11-11T02:07:54.000Z",
-      "likes": 314,
-      "category": "Agents / Workflow",
-      "score": 79,
-      "reason": "mentions agents; published within 24 hours; source link available; body includes links; strong engagement",
-      "matchedKeywords": [
-        "agents"
-      ],
-      "rank": 10,
       "isHighlight": true
     },
     {
@@ -294,7 +274,7 @@
       "matchedKeywords": [
         "claude"
       ],
-      "rank": 11,
+      "rank": 10,
       "isHighlight": true
     },
     {
@@ -313,6 +293,26 @@
       "reason": "matches models; published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [
         "models"
+      ],
+      "rank": 11,
+      "isHighlight": true
+    },
+    {
+      "id": "tweet-2120337691661443081",
+      "type": "tweet",
+      "title": "working together with other humans is where the magic happens, not each of us running our own a...",
+      "text": "working together with other humans is where the magic happens, not each of us running our own army of agents in silos glad to see this come alive 💛 https://t.co/rGFJITKBNH",
+      "summary": "working together with other humans is where the magic happens, not each of us running our own army of agents in silos glad to see this come alive 💛",
+      "author": "Ryo Lu",
+      "source": "@ryolu_",
+      "url": "https://x.com/ryolu_/status/2120337691661443081",
+      "publishedAt": "2026-11-11T02:07:54.000Z",
+      "likes": 314,
+      "category": "Agents / Workflow",
+      "score": 73,
+      "reason": "mentions agents; published within 48 hours; source link available; body includes links; strong engagement",
+      "matchedKeywords": [
+        "agents"
       ],
       "rank": 12,
       "isHighlight": true
@@ -338,26 +338,6 @@
       "isHighlight": true
     },
     {
-      "id": "tweet-2120372817720197357",
-      "type": "tweet",
-      "title": "i had a preview of his keynote and you guys don’t know what youre in for in thursday",
-      "text": "i had a preview of his keynote and you guys don’t know what youre in for in thursday. literally had to agree to embargo to get this talk on board (it is not the full story) tune in to the aie live stream 9am-6pm tmr and thursday!! https://t.co/3gzAKdFWOC https://t.co/xi26Uj7QZs",
-      "summary": "i had a preview of his keynote and you guys don’t know what youre in for in thursday. literally had to agree to embargo to get this talk on board (it is not the full story) tune in to the aie live stream 9am-6pm tmr and...",
-      "author": "Swyx",
-      "source": "@swyx",
-      "url": "https://x.com/swyx/status/2120372817720197357",
-      "publishedAt": "2026-11-11T04:27:29.000Z",
-      "likes": 71,
-      "category": "Product Launch",
-      "score": 71,
-      "reason": "matches preview; published within 24 hours; source link available; body includes links; strong engagement",
-      "matchedKeywords": [
-        "preview"
-      ],
-      "rank": 14,
-      "isHighlight": true
-    },
-    {
       "id": "tweet-2120186249281778135",
       "type": "tweet",
       "title": "Right now, Gemini 4 Carbon is in the @GeminiApp for Ultra subscribers worldwide",
@@ -373,6 +353,26 @@
       "reason": "matches gemini; published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [
         "gemini"
+      ],
+      "rank": 14,
+      "isHighlight": true
+    },
+    {
+      "id": "tweet-2120372817720197357",
+      "type": "tweet",
+      "title": "i had a preview of his keynote and you guys don’t know what youre in for in thursday",
+      "text": "i had a preview of his keynote and you guys don’t know what youre in for in thursday. literally had to agree to embargo to get this talk on board (it is not the full story) tune in to the aie live stream 9am-6pm tmr and thursday!! https://t.co/3gzAKdFWOC https://t.co/xi26Uj7QZs",
+      "summary": "i had a preview of his keynote and you guys don’t know what youre in for in thursday. literally had to agree to embargo to get this talk on board (it is not the full story) tune in to the aie live stream 9am-6pm tmr and...",
+      "author": "Swyx",
+      "source": "@swyx",
+      "url": "https://x.com/swyx/status/2120372817720197357",
+      "publishedAt": "2026-11-11T04:27:29.000Z",
+      "likes": 71,
+      "category": "Product Launch",
+      "score": 65,
+      "reason": "matches preview; published within 48 hours; source link available; body includes links; strong engagement",
+      "matchedKeywords": [
+        "preview"
       ],
       "rank": 15,
       "isHighlight": true
@@ -429,8 +429,8 @@
       "publishedAt": "2026-11-10T21:28:04.000Z",
       "likes": 3252,
       "category": "Model / Infra",
-      "score": 62,
-      "reason": "published within 24 hours; source link available; body includes links; strong engagement",
+      "score": 56,
+      "reason": "published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [],
       "rank": 18,
       "isHighlight": false
@@ -447,8 +447,8 @@
       "publishedAt": "2026-11-10T21:26:31.000Z",
       "likes": 3892,
       "category": "Model / Infra",
-      "score": 62,
-      "reason": "published within 24 hours; source link available; body includes links; strong engagement",
+      "score": 56,
+      "reason": "published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [],
       "rank": 19,
       "isHighlight": false
@@ -465,100 +465,10 @@
       "publishedAt": "2026-11-11T00:59:06.000Z",
       "likes": 437,
       "category": "Model / Infra",
-      "score": 60,
-      "reason": "published within 24 hours; source link available; body includes links; strong engagement",
+      "score": 54,
+      "reason": "published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [],
       "rank": 20,
-      "isHighlight": false
-    },
-    {
-      "id": "tweet-2120380317429350654",
-      "type": "tweet",
-      "title": "we build software not just to optimize, complete tasks or impose our own constraints – but to b...",
-      "text": "we build software not just to optimize, complete tasks or impose our own constraints – but to build a world where we let people in, aspire to things they couldn’t do before, to create, and find ourselves – just like filmmakers and musicians a great read: https://t.co/XXDYY4eYdP",
-      "summary": "we build software not just to optimize, complete tasks or impose our own constraints – but to build a world where we let people in, aspire to things they couldn’t do before, to create, and find ourselves – just like fil...",
-      "author": "Ryo Lu",
-      "source": "@ryolu_",
-      "url": "https://x.com/ryolu_/status/2120380317429350654",
-      "publishedAt": "2026-11-11T04:57:17.000Z",
-      "likes": 91,
-      "category": "Model / Infra",
-      "score": 57,
-      "reason": "published within 24 hours; source link available; body includes links; strong engagement",
-      "matchedKeywords": [],
-      "rank": 21,
-      "isHighlight": false
-    },
-    {
-      "id": "tweet-2120260803295363388",
-      "type": "tweet",
-      "title": "Mic drop Gulp Wow",
-      "text": "Mic drop Gulp Wow https://t.co/fApO4rM5x1",
-      "summary": "Mic drop Gulp Wow",
-      "author": "Nikunj Kothari",
-      "source": "@nikunj",
-      "url": "https://x.com/nikunj/status/2120260803295363388",
-      "publishedAt": "2026-11-10T21:02:22.000Z",
-      "likes": 41,
-      "category": "Model / Infra",
-      "score": 56,
-      "reason": "published within 24 hours; source link available; body includes links; strong engagement",
-      "matchedKeywords": [],
-      "rank": 22,
-      "isHighlight": false
-    },
-    {
-      "id": "tweet-2120370522622181809",
-      "type": "tweet",
-      "title": "Agree with Kartik",
-      "text": "Agree with Kartik. Game developers and gamers hating on (tasteful) use of AI is idiotic. There’s a huge difference between someone using AI to pump out slop and someone using it as another tool to make a great game. https://t.co/kPjko23zZn",
-      "summary": "Agree with Kartik. Game developers and gamers hating on (tasteful) use of AI is idiotic. There’s a huge difference between someone using AI to pump out slop and someone using it as another tool to make a great game.",
-      "author": "Peter Yang",
-      "source": "@petergyang",
-      "url": "https://x.com/petergyang/status/2120370522622181809",
-      "publishedAt": "2026-11-11T04:18:21.000Z",
-      "likes": 27,
-      "category": "Model / Infra",
-      "score": 55,
-      "reason": "published within 24 hours; source link available; body includes links",
-      "matchedKeywords": [],
-      "rank": 23,
-      "isHighlight": false
-    },
-    {
-      "id": "tweet-2120376333142569316",
-      "type": "tweet",
-      "title": "this is my engines thread",
-      "text": "this is my engines thread https://t.co/A3tgGyY1bL",
-      "summary": "this is my engines thread",
-      "author": "Swyx",
-      "source": "@swyx",
-      "url": "https://x.com/swyx/status/2120376333142569316",
-      "publishedAt": "2026-11-11T04:41:27.000Z",
-      "likes": 5,
-      "category": "Model / Infra",
-      "score": 53,
-      "reason": "published within 24 hours; source link available; body includes links",
-      "matchedKeywords": [],
-      "rank": 24,
-      "isHighlight": false
-    },
-    {
-      "id": "tweet-2120326994579931419",
-      "type": "tweet",
-      "title": "Here's the updated game btw",
-      "text": "Here's the updated game btw https://t.co/WKfj4GcC7v",
-      "summary": "Here's the updated game btw",
-      "author": "Peter Yang",
-      "source": "@petergyang",
-      "url": "https://x.com/petergyang/status/2120326994579931419",
-      "publishedAt": "2026-11-11T01:25:23.000Z",
-      "likes": 5,
-      "category": "Model / Infra",
-      "score": 53,
-      "reason": "published within 24 hours; source link available; body includes links",
-      "matchedKeywords": [],
-      "rank": 25,
       "isHighlight": false
     },
     {
@@ -576,25 +486,61 @@
       "score": 53,
       "reason": "published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [],
-      "rank": 26,
+      "rank": 21,
       "isHighlight": false
     },
     {
-      "id": "tweet-2120294319773073919",
+      "id": "tweet-2120380317429350654",
       "type": "tweet",
-      "title": "@Google @every Read the full vibe check:",
-      "text": "@Google @every Read the full vibe check: https://t.co/UQseDcXkqh",
-      "summary": "@Google @every Read the full vibe check:",
-      "author": "Dan Shipper",
-      "source": "@danshipper",
-      "url": "https://x.com/danshipper/status/2120294319773073919",
-      "publishedAt": "2026-11-10T23:15:33.000Z",
-      "likes": 2,
+      "title": "we build software not just to optimize, complete tasks or impose our own constraints – but to b...",
+      "text": "we build software not just to optimize, complete tasks or impose our own constraints – but to build a world where we let people in, aspire to things they couldn’t do before, to create, and find ourselves – just like filmmakers and musicians a great read: https://t.co/XXDYY4eYdP",
+      "summary": "we build software not just to optimize, complete tasks or impose our own constraints – but to build a world where we let people in, aspire to things they couldn’t do before, to create, and find ourselves – just like fil...",
+      "author": "Ryo Lu",
+      "source": "@ryolu_",
+      "url": "https://x.com/ryolu_/status/2120380317429350654",
+      "publishedAt": "2026-11-11T04:57:17.000Z",
+      "likes": 91,
       "category": "Model / Infra",
       "score": 51,
-      "reason": "published within 24 hours; source link available; body includes links",
+      "reason": "published within 48 hours; source link available; body includes links; strong engagement",
       "matchedKeywords": [],
-      "rank": 27,
+      "rank": 22,
+      "isHighlight": false
+    },
+    {
+      "id": "tweet-2120260803295363388",
+      "type": "tweet",
+      "title": "Mic drop Gulp Wow",
+      "text": "Mic drop Gulp Wow https://t.co/fApO4rM5x1",
+      "summary": "Mic drop Gulp Wow",
+      "author": "Nikunj Kothari",
+      "source": "@nikunj",
+      "url": "https://x.com/nikunj/status/2120260803295363388",
+      "publishedAt": "2026-11-10T21:02:22.000Z",
+      "likes": 41,
+      "category": "Model / Infra",
+      "score": 50,
+      "reason": "published within 48 hours; source link available; body includes links; strong engagement",
+      "matchedKeywords": [],
+      "rank": 23,
+      "isHighlight": false
+    },
+    {
+      "id": "tweet-2120370522622181809",
+      "type": "tweet",
+      "title": "Agree with Kartik",
+      "text": "Agree with Kartik. Game developers and gamers hating on (tasteful) use of AI is idiotic. There’s a huge difference between someone using AI to pump out slop and someone using it as another tool to make a great game. https://t.co/kPjko23zZn",
+      "summary": "Agree with Kartik. Game developers and gamers hating on (tasteful) use of AI is idiotic. There’s a huge difference between someone using AI to pump out slop and someone using it as another tool to make a great game.",
+      "author": "Peter Yang",
+      "source": "@petergyang",
+      "url": "https://x.com/petergyang/status/2120370522622181809",
+      "publishedAt": "2026-11-11T04:18:21.000Z",
+      "likes": 27,
+      "category": "Model / Infra",
+      "score": 49,
+      "reason": "published within 48 hours; source link available; body includes links",
+      "matchedKeywords": [],
+      "rank": 24,
       "isHighlight": false
     },
     {
@@ -612,7 +558,7 @@
       "score": 49,
       "reason": "published within 48 hours; source link available; strong engagement",
       "matchedKeywords": [],
-      "rank": 28,
+      "rank": 25,
       "isHighlight": false
     },
     {
@@ -630,7 +576,7 @@
       "score": 48,
       "reason": "published within 48 hours; source link available; strong engagement",
       "matchedKeywords": [],
-      "rank": 29,
+      "rank": 26,
       "isHighlight": false
     },
     {
@@ -648,7 +594,43 @@
       "score": 48,
       "reason": "published within 48 hours; source link available; body includes links",
       "matchedKeywords": [],
-      "rank": 30,
+      "rank": 27,
+      "isHighlight": false
+    },
+    {
+      "id": "tweet-2120376333142569316",
+      "type": "tweet",
+      "title": "this is my engines thread",
+      "text": "this is my engines thread https://t.co/A3tgGyY1bL",
+      "summary": "this is my engines thread",
+      "author": "Swyx",
+      "source": "@swyx",
+      "url": "https://x.com/swyx/status/2120376333142569316",
+      "publishedAt": "2026-11-11T04:41:27.000Z",
+      "likes": 5,
+      "category": "Model / Infra",
+      "score": 47,
+      "reason": "published within 48 hours; source link available; body includes links",
+      "matchedKeywords": [],
+      "rank": 28,
+      "isHighlight": false
+    },
+    {
+      "id": "tweet-2120326994579931419",
+      "type": "tweet",
+      "title": "Here's the updated game btw",
+      "text": "Here's the updated game btw https://t.co/WKfj4GcC7v",
+      "summary": "Here's the updated game btw",
+      "author": "Peter Yang",
+      "source": "@petergyang",
+      "url": "https://x.com/petergyang/status/2120326994579931419",
+      "publishedAt": "2026-11-11T01:25:23.000Z",
+      "likes": 5,
+      "category": "Model / Infra",
+      "score": 47,
+      "reason": "published within 48 hours; source link available; body includes links",
+      "matchedKeywords": [],
+      "rank": 29,
       "isHighlight": false
     },
     {
@@ -666,7 +648,7 @@
       "score": 47,
       "reason": "published within 48 hours; source link available; body includes links",
       "matchedKeywords": [],
-      "rank": 31,
+      "rank": 30,
       "isHighlight": false
     },
     {
@@ -684,7 +666,7 @@
       "score": 47,
       "reason": "published within 48 hours; source link available; body includes links",
       "matchedKeywords": [],
-      "rank": 32,
+      "rank": 31,
       "isHighlight": false
     },
     {
@@ -700,6 +682,24 @@
       "likes": 8,
       "category": "Model / Infra",
       "score": 47,
+      "reason": "published within 48 hours; source link available; body includes links",
+      "matchedKeywords": [],
+      "rank": 32,
+      "isHighlight": false
+    },
+    {
+      "id": "tweet-2120294319773073919",
+      "type": "tweet",
+      "title": "@Google @every Read the full vibe check:",
+      "text": "@Google @every Read the full vibe check: https://t.co/UQseDcXkqh",
+      "summary": "@Google @every Read the full vibe check:",
+      "author": "Dan Shipper",
+      "source": "@danshipper",
+      "url": "https://x.com/danshipper/status/2120294319773073919",
+      "publishedAt": "2026-11-10T23:15:33.000Z",
+      "likes": 2,
+      "category": "Model / Infra",
+      "score": 45,
       "reason": "published within 48 hours; source link available; body includes links",
       "matchedKeywords": [],
       "rank": 33,
