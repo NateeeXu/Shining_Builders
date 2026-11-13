@@ -1,102 +1,106 @@
 {
-  "generatedAt": "2026-11-12T05:09:53.267Z",
-  "sourceGeneratedAt": "2026-11-12T05:09:27.662Z",
+  "generatedAt": "2026-11-13T04:25:35.774Z",
+  "sourceGeneratedAt": "2026-11-13T04:25:07.851Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts centered on agents and Claude's new workspace features, including Claude Data, interactive connectors and Box read/write access via MCP. Dan Shipper's day-zero tests of Google's Gemini 4 Carbon were also prominent, along with Vercel's Agent-run security review.",
+  "brief": "Today's posts were dominated by reports and reactions about Nvidia's board and Jensen Huang, with commentators questioning the timing and calling for due process. Beyond that, builders discussed AI-native infrastructure, with Nikunj Kothari's sub-processor scrape showing more companies using two or more model providers.",
   "themes": [
     {
-      "label": "Claude workspace updates",
-      "summary": "Builders highlighted Claude Data going generally available, interactive connectors for Adobe, Atlassian and Box, and new Whiteboards and Sheets features.",
+      "label": "Nvidia board and Jensen Huang",
+      "summary": "Builders reacted to reports about Nvidia's board ousting Jensen Huang, questioning the timing, defending his leadership, and calling for a proper investigation.",
       "postIds": [
-        "tweet-2120206372478566799",
-        "tweet-2120206375137484875",
-        "tweet-2120206379315261702",
-        "tweet-2120261416733036905"
+        "tweet-2120671838909194695",
+        "tweet-2120657462353330604",
+        "tweet-2120649149389627493",
+        "tweet-2120640868483006533",
+        "tweet-2120726673452933269"
       ]
     },
     {
-      "label": "Agent swarms and workflows",
-      "summary": "Aaron Levie argued agent swarms will separate teams by output, while Ryo Lu said collaboration with humans matters more than siloed agents.",
+      "label": "Google Labs Tabletop",
+      "summary": "Google Labs introduced Tabletop, a shared-space experiment that generates custom interactive spaces on the fly, and showed how its team uses it at home.",
       "postIds": [
-        "tweet-2120385739342897469",
-        "tweet-2120337691661443081"
+        "tweet-2120549258692882702",
+        "tweet-2120595442782368240"
       ]
     },
     {
-      "label": "Gemini 4 Carbon testing",
-      "summary": "Dan Shipper tested Gemini 4 Carbon, finding it a stronger coder than Argon but not always knowing when to stop, and Josh Woodward noted its rollout to Ultra subscribers.",
+      "label": "AI-native company infrastructure",
+      "summary": "Nikunj Kothari's scrape of 803 companies' sub-processor lists found more firms using multiple model providers and inference providers than in March.",
       "postIds": [
-        "tweet-2120187507396530309",
-        "tweet-2120186249281778135",
-        "tweet-2120186731114778688"
+        "tweet-2120669243918418237",
+        "tweet-2120578134177464356"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Aaron Levie",
-      "summary": "Argued that agent swarms could drive another leap in output and that agents will work with enterprise files far more than people do. Announced a Box read/write partnership with Anthropic via MCP for Claude."
-    },
-    {
-      "name": "Claude",
-      "summary": "Announced Claude Data as generally available on paid plans, interactive connectors for Adobe, Atlassian and Box, and a rollout of Whiteboards, Sheets and Data."
-    },
-    {
-      "name": "Guillermo Rauch",
-      "summary": "Reported Vercel Security Review found 57,897 vulnerabilities in under a week, with the Agent patching 14,665. Also argued that new purpose-built languages will emerge with agentic coding."
-    },
-    {
-      "name": "Dan Shipper",
-      "summary": "Published a day-zero vibe check of Gemini 4 Carbon, reporting a 44% Senior Engineer benchmark score versus Argon's 21% and an overrun in a backlog test."
-    },
-    {
-      "name": "Latent Space",
-      "summary": "Published a podcast episode with Zeno Rocha of Resend on designing for agents, covering Resend's growth to 4.3 million users."
-    },
-    {
-      "name": "Peter Steinberger",
-      "summary": "Shared a report on a company whose re-run diagnostics with GPT-6 Astra confirmed 35,000 new vulnerabilities after earlier fixes."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Asked Resend's CEO why agents keep choosing Resend, and teased a keynote at the AIE live stream on Thursday."
+      "name": "AI & I by Every",
+      "summary": "Podcast episode on human work after automation, recapping Every's first conference in Brooklyn and Dan Shipper's closing talk."
     },
     {
       "name": "Thariq",
-      "summary": "Said the field needs fewer one-shot demos and more tools for collaborating with models."
-    },
-    {
-      "name": "Ryo Lu",
-      "summary": "Argued that human collaboration matters more than siloed agents, and shared a piece on building software that lets people in."
-    },
-    {
-      "name": "Josh Woodward",
-      "summary": "Announced that Gemini 4 Carbon is available to Ultra subscribers worldwide in the Gemini app."
+      "summary": "Said the experience of using coding agents could look different next year, and promoted his AIE talk titled \"the sweet side of the bitter lesson\"."
     },
     {
       "name": "Nikunj Kothari",
-      "summary": "Recommended a Railway post-mortem as a must read for infra providers, and otherwise posted personal or minor content."
+      "summary": "Shared findings from scraping 803 AI-native companies' sub-processors, noting more multi-provider use and Anthropic's faster growth. Also posted a request for startups and minor replies."
     },
     {
-      "name": "Thibault Sottiaux",
-      "summary": "Posted brief, personal or minor content with no substantive product or technical details."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Praised Anthropic's focus on accelerating disease cures and defended tasteful AI use in game development."
+      "name": "Claude",
+      "summary": "Highlighted artist Mariko Mori using Claude to write code for a computer-generated animation in her retrospective \"All That Shines.\""
     },
     {
       "name": "Aditya Agarwal",
-      "summary": "Posted a short personal remark about successful friends having intense hobbies."
+      "summary": "Framed two kinds of companies to build: diffusing AI into existing work and pursuing the frontier of scientific progress, citing examples at SPC. Also praised partner Rox."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Wrote that a single person with AI now does work that once took a team, citing his week building a CRM and game and citing GDPval results rising to about 83%."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Posted about a benchmark comparing fx bootup to an assembly version, promoted Beam by Reflection as free until Nov 12, and wrote that great products need sustained human effort."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Posted brief reactions, including a note that the post had gems for founders and a comment on French execs in the Jensen story."
+    },
+    {
+      "name": "Amjad Masad",
+      "summary": "Questioned why old stories about Jensen Huang suddenly became international news, asking who benefits and pointing to the midterms and upcoming IPOs."
+    },
+    {
+      "name": "Google Labs",
+      "summary": "Announced Tabletop, an experiment for turning shared links and files into custom spaces, and shared a family-use tour of it."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Posted about keynote attendance, a stream with typesafeai, and a clarification about a former employee. Mostly brief event and community updates."
+    },
+    {
+      "name": "Garry Tan",
+      "summary": "Argued Nvidia's board was ill advised to oust Jensen Huang. Otherwise posted event registration notices for an Acts 17 event with Huberman Lab."
+    },
+    {
+      "name": "Peter Steinberger",
+      "summary": "Briefly said that open source is hard enough without politics, responding to comments."
+    },
+    {
+      "name": "Josh Woodward",
+      "summary": "Said the team builds regularly with a product that makes their apps faster and smarter."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Voiced disappointment in Jensen Huang and later argued the board should investigate and involve shareholders before acting."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Posted two short personal remarks about Codex and a banked reset, with no technical detail."
     },
     {
       "name": "Zara Zhang",
-      "summary": "Shared advice on sharing work in progress and on why users stop returning to a product."
-    },
-    {
-      "name": "Nan Yu",
-      "summary": "Praised a dictation app's support for the Apple dictation key and push-to-talk shortcuts, and otherwise posted minor replies."
+      "summary": "Shared a quote that technology finishes its most important work once the audience forgets it. Otherwise personal or minor."
     }
   ]
 }
