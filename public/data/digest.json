@@ -1,106 +1,112 @@
 {
-  "generatedAt": "2026-11-13T04:25:35.774Z",
-  "sourceGeneratedAt": "2026-11-13T04:25:07.851Z",
+  "generatedAt": "2026-11-14T04:21:38.059Z",
+  "sourceGeneratedAt": "2026-11-14T04:21:08.914Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts were dominated by reports and reactions about Nvidia's board and Jensen Huang, with commentators questioning the timing and calling for due process. Beyond that, builders discussed AI-native infrastructure, with Nikunj Kothari's sub-processor scrape showing more companies using two or more model providers.",
+  "brief": "Today's posts centered on Gemini 4 Hydrogen, which Aaron Levie and Josh Woodward discussed, and on Claude Meetings, which Claude launched with Google Meet support. Beyond those launches, many builders reacted to news about Jensen Huang and NVIDIA.",
   "themes": [
     {
-      "label": "Nvidia board and Jensen Huang",
-      "summary": "Builders reacted to reports about Nvidia's board ousting Jensen Huang, questioning the timing, defending his leadership, and calling for a proper investigation.",
+      "label": "Gemini 4 Hydrogen",
+      "summary": "Builders reported Hydrogen as a fast, accurate model; Aaron Levie cited Box eval results of 5 points higher accuracy than Gemini 3.8 Flash in less than half the time.",
       "postIds": [
-        "tweet-2120671838909194695",
-        "tweet-2120657462353330604",
-        "tweet-2120649149389627493",
-        "tweet-2120640868483006533",
-        "tweet-2120726673452933269"
+        "tweet-2120947988143198302",
+        "tweet-2120942262054232392",
+        "tweet-2120990820631450061"
       ]
     },
     {
-      "label": "Google Labs Tabletop",
-      "summary": "Google Labs introduced Tabletop, a shared-space experiment that generates custom interactive spaces on the fly, and showed how its team uses it at home.",
+      "label": "Claude Meetings",
+      "summary": "Claude launched Meetings, where it joins calls as a participant, takes notes and action items, and starts starts docs, beginning with Google Meet.",
       "postIds": [
-        "tweet-2120549258692882702",
-        "tweet-2120595442782368240"
+        "tweet-2120973999295643679",
+        "tweet-2120974000746582357",
+        "tweet-2120973996304830859",
+        "tweet-2120983722182988206",
+        "tweet-2121029280432075157"
       ]
     },
     {
-      "label": "AI-native company infrastructure",
-      "summary": "Nikunj Kothari's scrape of 803 companies' sub-processor lists found more firms using multiple model providers and inference providers than in March.",
+      "label": "Jensen Huang news",
+      "summary": "Builders reacted to the news about Jensen Huang and NVIDIA, with posts expressing shock, commentary on the inquiry, and concern about its impact on the AI ecosystem.",
       "postIds": [
-        "tweet-2120669243918418237",
-        "tweet-2120578134177464356"
+        "tweet-2120951444526264388",
+        "tweet-2121096888023932949",
+        "tweet-2121081862659739870",
+        "tweet-2121035933541941297",
+        "tweet-2120924059709956201",
+        "tweet-2120880718868045973",
+        "tweet-2121044098270543980"
       ]
     }
   ],
   "builders": [
     {
-      "name": "AI & I by Every",
-      "summary": "Podcast episode on human work after automation, recapping Every's first conference in Brooklyn and Dan Shipper's closing talk."
-    },
-    {
-      "name": "Thariq",
-      "summary": "Said the experience of using coding agents could look different next year, and promoted his AIE talk titled \"the sweet side of the bitter lesson\"."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Shared findings from scraping 803 AI-native companies' sub-processors, noting more multi-provider use and Anthropic's faster growth. Also posted a request for startups and minor replies."
-    },
-    {
-      "name": "Claude",
-      "summary": "Highlighted artist Mariko Mori using Claude to write code for a computer-generated animation in her retrospective \"All That Shines.\""
-    },
-    {
-      "name": "Aditya Agarwal",
-      "summary": "Framed two kinds of companies to build: diffusing AI into existing work and pursuing the frontier of scientific progress, citing examples at SPC. Also praised partner Rox."
-    },
-    {
-      "name": "Dan Shipper",
-      "summary": "Wrote that a single person with AI now does work that once took a team, citing his week building a CRM and game and citing GDPval results rising to about 83%."
-    },
-    {
-      "name": "Guillermo Rauch",
-      "summary": "Posted about a benchmark comparing fx bootup to an assembly version, promoted Beam by Reflection as free until Nov 12, and wrote that great products need sustained human effort."
-    },
-    {
-      "name": "Matt Turck",
-      "summary": "Posted brief reactions, including a note that the post had gems for founders and a comment on French execs in the Jensen story."
-    },
-    {
       "name": "Amjad Masad",
-      "summary": "Questioned why old stories about Jensen Huang suddenly became international news, asking who benefits and pointing to the midterms and upcoming IPOs."
+      "summary": "Announced that Replit Agent can now buy things for a business, including ads to acquire customers. He also posted several political comments on the Jensen Huang news."
     },
     {
-      "name": "Google Labs",
-      "summary": "Announced Tabletop, an experiment for turning shared links and files into custom spaces, and shared a family-use tour of it."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Posted about keynote attendance, a stream with typesafeai, and a clarification about a former employee. Mostly brief event and community updates."
-    },
-    {
-      "name": "Garry Tan",
-      "summary": "Argued Nvidia's board was ill advised to oust Jensen Huang. Otherwise posted event registration notices for an Acts 17 event with Huberman Lab."
-    },
-    {
-      "name": "Peter Steinberger",
-      "summary": "Briefly said that open source is hard enough without politics, responding to comments."
-    },
-    {
-      "name": "Josh Woodward",
-      "summary": "Said the team builds regularly with a product that makes their apps faster and smarter."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Voiced disappointment in Jensen Huang and later argued the board should investigate and involve shareholders before acting."
+      "name": "Aaron Levie",
+      "summary": "Posted that Gemini 4 Hydrogen is a serious jump for fast models, based on Box AI Complex Work Eval results. He also called the Jensen news a mess."
     },
     {
       "name": "Thibault Sottiaux",
-      "summary": "Posted two short personal remarks about Codex and a banked reset, with no technical detail."
+      "summary": "Announced new cybersecurity tools for automated patching and automated red teaming. He also shipped dots updates with a banked reset and asked how Codex can be improved."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Argued that agents need deeper, unopinionated building blocks rather than rigid frameworks, and presented UI SDK as a foundation for agents building UI components."
+    },
+    {
+      "name": "Peter Steinberger",
+      "summary": "Shared that his team wrote about running persistent agents inside OpenAI. He also warned to watch for paid marketing in reviews of an upcoming agent."
+    },
+    {
+      "name": "Claude",
+      "summary": "Launched Claude Meetings, where Claude takes notes, joins as a visible participant, and starts with Google Meet. Posts covered notes, participation, and the Google Meet launch."
+    },
+    {
+      "name": "Alex Albert",
+      "summary": "Said getting good work from Claude often means supplying missing context, and that Claude Meetings has been useful internally for that."
+    },
+    {
+      "name": "Josh Woodward",
+      "summary": "Introduced Gemini 4 Hydrogen in the Gemini app as fast, smart, and a big jump. He also announced pre-orders for new glasses with demos in select stores shipping Dec 10."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Posted a joke about Claude sitting in on his meetings for the first time. Other posts were brief reactions and a long satirical piece about the Jensen Huang news."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Posted about his first Slush schedule and commented on the Jensen Huang news and Hugging Face acquisition timing. Other posts were brief commentary on geopolitics."
+    },
+    {
+      "name": "No Priors",
+      "summary": "Shared a podcast episode with Max Jaderberg, President of Isomorphic Labs, on AI-driven drug discovery and predicting toxicity before clinical trials."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Posted short reactions on NVIDIA and the Jensen Huang news, including a comment on how NVIDIA employees respected him. Other posts were brief reactions."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Posted from the AI Engineer event, including a keynote remark that AIE code is now AIE math. Other posts were personal event updates."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Commented that the Jensen news has continued for nine hours and will affect every organization. Other posts were a personal note about replying to DMs."
+    },
+    {
+      "name": "Thariq",
+      "summary": "Posted brief, personal messages with a link and a context link, with no substantive product or technical content."
     },
     {
       "name": "Zara Zhang",
-      "summary": "Shared a quote that technology finishes its most important work once the audience forgets it. Otherwise personal or minor."
+      "summary": "Shared a text-format explainer of the Jensen Huang scandal made with two prompts, and noted that users can interrupt it with their own questions."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Wrote that the company would not be where it is without Jensen, and said the current situation is viscerally painful to watch."
     }
   ]
 }
