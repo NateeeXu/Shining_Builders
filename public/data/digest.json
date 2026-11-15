@@ -1,112 +1,78 @@
 {
-  "generatedAt": "2026-11-14T04:21:38.059Z",
-  "sourceGeneratedAt": "2026-11-14T04:21:08.914Z",
+  "generatedAt": "2026-11-15T04:05:50.018Z",
+  "sourceGeneratedAt": "2026-11-15T04:05:24.348Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts centered on Gemini 4 Hydrogen, which Aaron Levie and Josh Woodward discussed, and on Claude Meetings, which Claude launched with Google Meet support. Beyond those launches, many builders reacted to news about Jensen Huang and NVIDIA.",
+  "brief": "Today's posts were dominated by the #standwithjensen campaign, which drew the most engagement across Garry Tan, Amjad Masad and Guillermo Rauch. Beyond it, builders discussed model choice for coding, with Garry Tan reporting that Opus 5.5 stayed the better-value default over Fable 5.2 in Claude Code.",
   "themes": [
     {
-      "label": "Gemini 4 Hydrogen",
-      "summary": "Builders reported Hydrogen as a fast, accurate model; Aaron Levie cited Box eval results of 5 points higher accuracy than Gemini 3.8 Flash in less than half the time.",
+      "label": "#standwithjensen campaign",
+      "summary": "Builders backed a letter and call for due process for Jensen, with Garry Tan, Amjad Masad and Guillermo Rauch sharing it heavily.",
       "postIds": [
-        "tweet-2120947988143198302",
-        "tweet-2120942262054232392",
-        "tweet-2120990820631450061"
+        "tweet-2121462697787342932",
+        "tweet-2121377395244749097",
+        "tweet-2121351007615811799",
+        "tweet-2121389001546567837"
       ]
     },
     {
-      "label": "Claude Meetings",
-      "summary": "Claude launched Meetings, where it joins calls as a participant, takes notes and action items, and starts starts docs, beginning with Google Meet.",
+      "label": "Opus 5.5 vs Fable 5.2 coding",
+      "summary": "Garry Tan's eval found Fable 5.2 matched Opus 5.5 on solve rate but cost 2.80x per solved task, while Dan Shipper questioned whether teams still pay for software.",
       "postIds": [
-        "tweet-2120973999295643679",
-        "tweet-2120974000746582357",
-        "tweet-2120973996304830859",
-        "tweet-2120983722182988206",
-        "tweet-2121029280432075157"
+        "tweet-2121464508225053153",
+        "tweet-2121463161069228382",
+        "tweet-2121248233510818003"
       ]
     },
     {
-      "label": "Jensen Huang news",
-      "summary": "Builders reacted to the news about Jensen Huang and NVIDIA, with posts expressing shock, commentary on the inquiry, and concern about its impact on the AI ecosystem.",
+      "label": "Vercel Workflow SDK 5",
+      "summary": "Guillermo Rauch described Workflow SDK 5 and Vercel Workflows as a major step for agents, with faster steps, stronger security and a reusable durability log.",
       "postIds": [
-        "tweet-2120951444526264388",
-        "tweet-2121096888023932949",
-        "tweet-2121081862659739870",
-        "tweet-2121035933541941297",
-        "tweet-2120924059709956201",
-        "tweet-2120880718868045973",
-        "tweet-2121044098270543980"
+        "tweet-2121277727940776114",
+        "tweet-2121347136965210286"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Amjad Masad",
-      "summary": "Announced that Replit Agent can now buy things for a business, including ads to acquire customers. He also posted several political comments on the Jensen Huang news."
-    },
-    {
-      "name": "Aaron Levie",
-      "summary": "Posted that Gemini 4 Hydrogen is a serious jump for fast models, based on Box AI Complex Work Eval results. He also called the Jensen news a mess."
-    },
-    {
-      "name": "Thibault Sottiaux",
-      "summary": "Announced new cybersecurity tools for automated patching and automated red teaming. He also shipped dots updates with a banked reset and asked how Codex can be improved."
+      "name": "Garry Tan",
+      "summary": "Posted that Opus 5.5 remains the coding default in Claude Code based on a 52-task eval, and shared his open source harness eval repo. Also signed the #standwithjensen letter."
     },
     {
       "name": "Guillermo Rauch",
-      "summary": "Argued that agents need deeper, unopinionated building blocks rather than rigid frameworks, and presented UI SDK as a foundation for agents building UI components."
+      "summary": "Called Workflow SDK 5 and Vercel Workflows a monumental step for agents, citing faster steps, security work and a reusable durability log. Also backed #standwithjensen and said Vercel Sandbox is inevitable."
     },
     {
-      "name": "Peter Steinberger",
-      "summary": "Shared that his team wrote about running persistent agents inside OpenAI. He also warned to watch for paid marketing in reviews of an upcoming agent."
-    },
-    {
-      "name": "Claude",
-      "summary": "Launched Claude Meetings, where Claude takes notes, joins as a visible participant, and starts with Google Meet. Posts covered notes, participation, and the Google Meet launch."
-    },
-    {
-      "name": "Alex Albert",
-      "summary": "Said getting good work from Claude often means supplying missing context, and that Claude Meetings has been useful internally for that."
-    },
-    {
-      "name": "Josh Woodward",
-      "summary": "Introduced Gemini 4 Hydrogen in the Gemini app as fast, smart, and a big jump. He also announced pre-orders for new glasses with demos in select stores shipping Dec 10."
-    },
-    {
-      "name": "Dan Shipper",
-      "summary": "Posted a joke about Claude sitting in on his meetings for the first time. Other posts were brief reactions and a long satirical piece about the Jensen Huang news."
-    },
-    {
-      "name": "Matt Turck",
-      "summary": "Posted about his first Slush schedule and commented on the Jensen Huang news and Hugging Face acquisition timing. Other posts were brief commentary on geopolitics."
-    },
-    {
-      "name": "No Priors",
-      "summary": "Shared a podcast episode with Max Jaderberg, President of Isomorphic Labs, on AI-driven drug discovery and predicting toxicity before clinical trials."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Posted short reactions on NVIDIA and the Jensen Huang news, including a comment on how NVIDIA employees respected him. Other posts were brief reactions."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Posted from the AI Engineer event, including a keynote remark that AIE code is now AIE math. Other posts were personal event updates."
+      "name": "Training Data",
+      "summary": "Published a podcast episode with Ronak from Trajectory on building products for continual learning, centered on putting training, eval and deployment in one place."
     },
     {
       "name": "Nikunj Kothari",
-      "summary": "Commented that the Jensen news has continued for nine hours and will affect every organization. Other posts were a personal note about replying to DMs."
+      "summary": "Argued that real model use on your own workflows matters more than benchmarks, which he said are often used as marketing. Also noted the FAA ground stop, only the third in modern history."
     },
     {
-      "name": "Thariq",
-      "summary": "Posted brief, personal messages with a link and a context link, with no substantive product or technical content."
-    },
-    {
-      "name": "Zara Zhang",
-      "summary": "Shared a text-format explainer of the Jensen Huang scandal made with two prompts, and noted that users can interrupt it with their own questions."
+      "name": "Amjad Masad",
+      "summary": "Had Replit raise the rate limit on the StandWithJensen page so it could scale, and shared the Stand with Jensen letter. Also said Replit has enjoyed partnering with Visa on agentic commerce."
     },
     {
       "name": "Aditya Agarwal",
-      "summary": "Wrote that the company would not be where it is without Jensen, and said the current situation is viscerally painful to watch."
+      "summary": "Congratulated companies on the AI 100 list, including Replit and Baseten. Also said we are in an extremely weird timeline."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Shared a free skill for using ChatGPT or Claude with a loved one's medical records to research clinical trials. Also posted a critique of WSJ reporting on an NVIDIA employee."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Asked why teams still pay for software when Fable 5.2 can vibe code anything. Also posted a short musing on the most important formula in AI."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Posted only a brief invitation to a site, saying to come by tomorrow."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Posted a light joke about VCs weighing in on the FAA nationwide ground stop."
     }
   ]
 }
