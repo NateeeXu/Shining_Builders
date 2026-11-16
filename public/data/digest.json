@@ -1,78 +1,93 @@
 {
-  "generatedAt": "2026-11-15T04:05:50.018Z",
-  "sourceGeneratedAt": "2026-11-15T04:05:24.348Z",
+  "generatedAt": "2026-11-16T04:05:33.192Z",
+  "sourceGeneratedAt": "2026-11-16T04:05:05.324Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts were dominated by the #standwithjensen campaign, which drew the most engagement across Garry Tan, Amjad Masad and Guillermo Rauch. Beyond it, builders discussed model choice for coding, with Garry Tan reporting that Opus 5.5 stayed the better-value default over Fable 5.2 in Claude Code.",
+  "brief": "Posts today centered on agents and coding tools, including Fable 5.2 prompts, Guillermo Rauch's UI SDK demo, and subagent workflows. Amjad Masad's posts on recursive self-improvement and rare failures becoming daily events stood out beyond that.",
   "themes": [
     {
-      "label": "#standwithjensen campaign",
-      "summary": "Builders backed a letter and call for due process for Jensen, with Garry Tan, Amjad Masad and Guillermo Rauch sharing it heavily.",
+      "label": "Agents and subagent workflows",
+      "summary": "Builders described agents reusing ready-made UI behaviors and delegating work from smart planning models to fast subagents.",
       "postIds": [
-        "tweet-2121462697787342932",
-        "tweet-2121377395244749097",
-        "tweet-2121351007615811799",
-        "tweet-2121389001546567837"
+        "tweet-2121804295381377342",
+        "tweet-2121739228698886454",
+        "tweet-2121824006819258485",
+        "tweet-2121765647168483589"
       ]
     },
     {
-      "label": "Opus 5.5 vs Fable 5.2 coding",
-      "summary": "Garry Tan's eval found Fable 5.2 matched Opus 5.5 on solve rate but cost 2.80x per solved task, while Dan Shipper questioned whether teams still pay for software.",
+      "label": "Fable and Claude Code setup",
+      "summary": "Builders shared prompts for auditing Claude Code setups and showed Fable in use for everyday tasks.",
       "postIds": [
-        "tweet-2121464508225053153",
-        "tweet-2121463161069228382",
-        "tweet-2121248233510818003"
+        "tweet-2121649295950762363",
+        "tweet-2121652571211510094"
       ]
     },
     {
-      "label": "Vercel Workflow SDK 5",
-      "summary": "Guillermo Rauch described Workflow SDK 5 and Vercel Workflows as a major step for agents, with faster steps, stronger security and a reusable durability log.",
+      "label": "Autonomy and system failures",
+      "summary": "Amjad Masad argued that autonomy in technology has long been increasing and that failures now happen daily as systems accelerate.",
       "postIds": [
-        "tweet-2121277727940776114",
-        "tweet-2121347136965210286"
+        "tweet-2121549054173757554",
+        "tweet-2121519931741127144"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Garry Tan",
-      "summary": "Posted that Opus 5.5 remains the coding default in Claude Code based on a 52-task eval, and shared his open source harness eval repo. Also signed the #standwithjensen letter."
-    },
-    {
-      "name": "Guillermo Rauch",
-      "summary": "Called Workflow SDK 5 and Vercel Workflows a monumental step for agents, citing faster steps, security work and a reusable durability log. Also backed #standwithjensen and said Vercel Sandbox is inevitable."
-    },
-    {
-      "name": "Training Data",
-      "summary": "Published a podcast episode with Ronak from Trajectory on building products for continual learning, centered on putting training, eval and deployment in one place."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Argued that real model use on your own workflows matters more than benchmarks, which he said are often used as marketing. Also noted the FAA ground stop, only the third in modern history."
-    },
-    {
-      "name": "Amjad Masad",
-      "summary": "Had Replit raise the rate limit on the StandWithJensen page so it could scale, and shared the Stand with Jensen letter. Also said Replit has enjoyed partnering with Visa on agentic commerce."
-    },
-    {
-      "name": "Aditya Agarwal",
-      "summary": "Congratulated companies on the AI 100 list, including Replit and Baseten. Also said we are in an extremely weird timeline."
+      "name": "Aaron Levie",
+      "summary": "Argued that agents will improve fastest at coding and computer use, so more work will become coding-shaped. Also cited recent model examples generating animated videos, games and 3D models."
     },
     {
       "name": "Peter Yang",
-      "summary": "Shared a free skill for using ChatGPT or Claude with a loved one's medical records to research clinical trials. Also posted a critique of WSJ reporting on an NVIDIA employee."
+      "summary": "Shared two Claude Code prompts, /doctor prompt-audit and /claude-api prompt-audit, for auditing setups and skills after Fable 5.2. Also asked followers to star a repo."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Showed an agent building with the UI SDK, reusing 14 behaviors out of the box. Also said subagents work well, with projects planned by a smart model and delegated to fast ones."
     },
     {
       "name": "Dan Shipper",
-      "summary": "Asked why teams still pay for software when Fable 5.2 can vibe code anything. Also posted a short musing on the most important formula in AI."
+      "summary": "Promoted the Every frontier feed of experiments and code. Also shared a Fable-written email and a writeup link."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Asked for feedback on Daybreak from the cyber team, covering models, codex plugins, access, documentation and red teaming."
+    },
+    {
+      "name": "Garry Tan",
+      "summary": "Called Aside Browser a huge unlock for AI agents. Also called for modernizing the FAA and posted a short note about using gbrain."
+    },
+    {
+      "name": "Josh Woodward",
+      "summary": "Announced Google Wallet connection in Gemini for personal finance insights, and said a feature is available to all Gemini app users in the USA."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Shared the 2026 Startup Bookshelf and joked about reading this week's incident reports. Mostly brief posts."
+    },
+    {
+      "name": "Unsupervised Learning",
+      "summary": "Published Ep 97 with Jev Creator on decision models, benchmark fatigue, and why the labs missed it, including views on Anthropic valuation expectations."
     },
     {
       "name": "Swyx",
-      "summary": "Posted only a brief invitation to a site, saying to come by tomorrow."
+      "summary": "Said AI UX is very suboptimal given models too cheap to meter. Other posts were brief and personal."
+    },
+    {
+      "name": "Amjad Masad",
+      "summary": "Posted that autonomous businesses are here and that technology has long been recursively self-improving, citing Douglas Engelbart. Also wrote that rare failures are now daily events."
     },
     {
       "name": "Matt Turck",
-      "summary": "Posted a light joke about VCs weighing in on the FAA nationwide ground stop."
+      "summary": "Noted that NVIDIA is the one deep-pocketed player with a clear business interest in open weights AI, and asked what happens next."
+    },
+    {
+      "name": "Peter Steinberger",
+      "summary": "Posted only a single emoji with a link, so no substantive content today."
+    },
+    {
+      "name": "Zara Zhang",
+      "summary": "Posted a single word, True, with a link. Only minor content today."
     }
   ]
 }
