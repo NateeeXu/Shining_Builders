@@ -1,93 +1,75 @@
 {
-  "generatedAt": "2026-11-16T04:05:33.192Z",
-  "sourceGeneratedAt": "2026-11-16T04:05:05.324Z",
+  "generatedAt": "2026-11-17T05:55:21.654Z",
+  "sourceGeneratedAt": "2026-11-17T05:54:53.843Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Posts today centered on agents and coding tools, including Fable 5.2 prompts, Guillermo Rauch's UI SDK demo, and subagent workflows. Amjad Masad's posts on recursive self-improvement and rare failures becoming daily events stood out beyond that.",
+  "brief": "Today's posts were mostly light: Codex capacity errors, a Codex-related fix, and Claude design workflows from Anthropic's Nate Parrott. The most notable item beyond that is Guillermo Rauch's launch of xeet, a Rust/wasm X post renderer that renders to PNG in about 1ms.",
   "themes": [
     {
-      "label": "Agents and subagent workflows",
-      "summary": "Builders described agents reusing ready-made UI behaviors and delegating work from smart planning models to fast subagents.",
+      "label": "Claude design workflows",
+      "summary": "Peter Yang's interview with Anthropic's Nate Parrott covers how prototyping is faster now and how to stop Claude defaulting to the same visual style.",
       "postIds": [
-        "tweet-2121804295381377342",
-        "tweet-2121739228698886454",
-        "tweet-2121824006819258485",
-        "tweet-2121765647168483589"
+        "tweet-2122060856498524510",
+        "tweet-2122132596352327816"
       ]
     },
     {
-      "label": "Fable and Claude Code setup",
-      "summary": "Builders shared prompts for auditing Claude Code setups and showed Fable in use for everyday tasks.",
+      "label": "Codex capacity errors",
+      "summary": "Thibault Sottiaux said the Codex team may have fixed the \"model at capacity\" errors, and Nan Yu asked how to use Codex to control home automation.",
       "postIds": [
-        "tweet-2121649295950762363",
-        "tweet-2121652571211510094"
-      ]
-    },
-    {
-      "label": "Autonomy and system failures",
-      "summary": "Amjad Masad argued that autonomy in technology has long been increasing and that failures now happen daily as systems accelerate.",
-      "postIds": [
-        "tweet-2121549054173757554",
-        "tweet-2121519931741127144"
+        "tweet-2122206990101536852",
+        "tweet-2122096965865664924"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Aaron Levie",
-      "summary": "Argued that agents will improve fastest at coding and computer use, so more work will become coding-shaped. Also cited recent model examples generating animated videos, games and 3D models."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Shared two Claude Code prompts, /doctor prompt-audit and /claude-api prompt-audit, for auditing setups and skills after Fable 5.2. Also asked followers to star a repo."
+      "name": "Thibault Sottiaux",
+      "summary": "Said the Codex team might have fixed the \"model at capacity\" errors that have been affecting users."
     },
     {
       "name": "Guillermo Rauch",
-      "summary": "Showed an agent building with the UI SDK, reusing 14 behaviors out of the box. Also said subagents work well, with projects planned by a smart model and delegated to fast ones."
+      "summary": "Introduced xeet, a hermetic X post renderer in safe Rust and wasm that renders a post to PNG in about 1ms without a browser. He also shared a playful CLI naming story."
     },
     {
-      "name": "Dan Shipper",
-      "summary": "Promoted the Every frontier feed of experiments and code. Also shared a Fable-written email and a writeup link."
+      "name": "No Priors",
+      "summary": "Posted an episode with Robinhood CEO Vlad Tenev covering tokenization, agentic trading, and expanding ownership, including a claim that over 150,000 customers have opened agentic trading accounts."
     },
     {
-      "name": "Thibault Sottiaux",
-      "summary": "Asked for feedback on Daybreak from the cyber team, covering models, codex plugins, access, documentation and red teaming."
+      "name": "Nan Yu",
+      "summary": "Asked for a plug-and-play home automation hub that Codex could control, and joked about a Waymo's windshield wipers. Mostly personal posts."
     },
     {
-      "name": "Garry Tan",
-      "summary": "Called Aside Browser a huge unlock for AI agents. Also called for modernizing the FAA and posted a short note about using gbrain."
-    },
-    {
-      "name": "Josh Woodward",
-      "summary": "Announced Google Wallet connection in Gemini for personal finance insights, and said a feature is available to all Gemini app users in the USA."
+      "name": "Peter Yang",
+      "summary": "Shared quotes from Anthropic's Nate Parrott on compressed build cycles and on prompting Claude to avoid default visual styles. Also questioned a NYTimes story on Alice Huang."
     },
     {
       "name": "Nikunj Kothari",
-      "summary": "Shared the 2026 Startup Bookshelf and joked about reading this week's incident reports. Mostly brief posts."
+      "summary": "Announced a weekly guest series with Kanav Gupta, cofounder of Core Auto, on RL methods and synthetic data, held in person in SF."
     },
     {
-      "name": "Unsupervised Learning",
-      "summary": "Published Ep 97 with Jev Creator on decision models, benchmark fatigue, and why the labs missed it, including views on Anthropic valuation expectations."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Said AI UX is very suboptimal given models too cheap to meter. Other posts were brief and personal."
+      "name": "Thariq",
+      "summary": "Shared a brief post announcing a new arena and two new characters, with no further detail."
     },
     {
       "name": "Amjad Masad",
-      "summary": "Posted that autonomous businesses are here and that technology has long been recursively self-improving, citing Douglas Engelbart. Also wrote that rare failures are now daily events."
+      "summary": "Posted that it had been an interesting 48 hours and shared a short note calling a linked post a good summary."
     },
     {
-      "name": "Matt Turck",
-      "summary": "Noted that NVIDIA is the one deep-pocketed player with a clear business interest in open weights AI, and asked what happens next."
-    },
-    {
-      "name": "Peter Steinberger",
-      "summary": "Posted only a single emoji with a link, so no substantive content today."
+      "name": "Dan Shipper",
+      "summary": "Described building a compounding skill for context window summaries, iterated with autoresearch until it matched 80% of his taste versus a no-skill baseline."
     },
     {
       "name": "Zara Zhang",
-      "summary": "Posted a single word, True, with a link. Only minor content today."
+      "summary": "Posted a short observation that being good at LinkedIn probably makes you bad at X, plus a personal remark about a store."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Shared a note from an Indian aerospace company about a early-morning first flight on a remote runway, with the line \"Ad Astra.\""
+    },
+    {
+      "name": "Swyx",
+      "summary": "Posted several short, minor notes about a talk recap written by clanker. Nothing substantive."
     }
   ]
 }
