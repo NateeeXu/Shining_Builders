@@ -1,75 +1,101 @@
 {
-  "generatedAt": "2026-11-17T05:55:21.654Z",
-  "sourceGeneratedAt": "2026-11-17T05:54:53.843Z",
+  "generatedAt": "2026-11-18T05:23:37.389Z",
+  "sourceGeneratedAt": "2026-11-18T05:23:10.630Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts were mostly light: Codex capacity errors, a Codex-related fix, and Claude design workflows from Anthropic's Nate Parrott. The most notable item beyond that is Guillermo Rauch's launch of xeet, a Rust/wasm X post renderer that renders to PNG in about 1ms.",
+  "brief": "Today's posts centered on agents and the tools builders use to work with them, including evals, permission prompts on macOS, and design with Claude. Beyond that, Guillermo Rauch and Garry Tan described software as personalized and self-owned, and Garry Tan previewed a Rust GBrain backend.",
   "themes": [
     {
-      "label": "Claude design workflows",
-      "summary": "Peter Yang's interview with Anthropic's Nate Parrott covers how prototyping is faster now and how to stop Claude defaulting to the same visual style.",
+      "label": "Agents as users and collaborators",
+      "summary": "Builders described agents as users of software and as collaborators, with Rauch saying evals now replace user interviews.",
       "postIds": [
-        "tweet-2122060856498524510",
-        "tweet-2122132596352327816"
+        "tweet-2122415506451841215",
+        "tweet-2122438326431154210",
+        "tweet-2122438328079524159",
+        "tweet-2122463466304971068",
+        "tweet-2122541401804054826"
       ]
     },
     {
-      "label": "Codex capacity errors",
-      "summary": "Thibault Sottiaux said the Codex team may have fixed the \"model at capacity\" errors, and Nan Yu asked how to use Codex to control home automation.",
+      "label": "Owning your AI stack",
+      "summary": "Builders argued for open SDKs, owned models and data, and personalized open source software.",
       "postIds": [
-        "tweet-2122206990101536852",
-        "tweet-2122096965865664924"
+        "tweet-2122458782294847807",
+        "tweet-2122396034186014919",
+        "tweet-2122517681740124271",
+        "tweet-2122576951080792543"
+      ]
+    },
+    {
+      "label": "Coding and token spend trends",
+      "summary": "Builders said coding models now work for many tasks and token use is still rising, with infrastructure shifting from vibe coding to harnesses, sandboxes and agentic CI.",
+      "postIds": [
+        "tweet-2122508098351038532",
+        "tweet-2122543500814336281",
+        "tweet-2122347721298510021"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Thibault Sottiaux",
-      "summary": "Said the Codex team might have fixed the \"model at capacity\" errors that have been affecting users."
+      "name": "Aaron Levie",
+      "summary": "Argued that token spend per employee has no ceiling and that coding models are now working, which is leading to tool and computer use."
     },
     {
       "name": "Guillermo Rauch",
-      "summary": "Introduced xeet, a hermetic X post renderer in safe Rust and wasm that renders a post to PNG in about 1ms without a browser. He also shared a playful CLI naming story."
+      "summary": "Posted a four-step roadmap for owning intelligence, and said a new era of personalized, open source software is here. Also said Vercel now runs evals in place of user interviews."
     },
     {
-      "name": "No Priors",
-      "summary": "Posted an episode with Robinhood CEO Vlad Tenev covering tokenization, agentic trading, and expanding ownership, including a claim that over 150,000 customers have opened agentic trading accounts."
-    },
-    {
-      "name": "Nan Yu",
-      "summary": "Asked for a plug-and-play home automation hub that Codex could control, and joked about a Waymo's windshield wipers. Mostly personal posts."
+      "name": "Latent Space",
+      "summary": "Published a podcast episode with Mihail Eric of Monaco on how Stanford teaches AI-native engineering."
     },
     {
       "name": "Peter Yang",
-      "summary": "Shared quotes from Anthropic's Nate Parrott on compressed build cycles and on prompting Claude to avoid default visual styles. Also questioned a NYTimes story on Alice Huang."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Announced a weekly guest series with Kanav Gupta, cofounder of Core Auto, on RL methods and synthetic data, held in person in SF."
+      "summary": "Shared top takeaways from @nateparrott on getting Claude to design without AI slop, and questioned a post about Megaspeed."
     },
     {
       "name": "Thariq",
-      "summary": "Shared a brief post announcing a new arena and two new characters, with no further detail."
+      "summary": "Said software factories are a temporary problem and that the key question is building workspaces where agents collaborate with people. Also shared a game character built with agents."
     },
     {
-      "name": "Amjad Masad",
-      "summary": "Posted that it had been an interesting 48 hours and shared a short note calling a linked post a good summary."
+      "name": "Peter Steinberger",
+      "summary": "Complained that Apple's new macOS alerts add more permission prompts that interrupt agents working on macOS."
     },
     {
       "name": "Dan Shipper",
-      "summary": "Described building a compounding skill for context window summaries, iterated with autoresearch until it matched 80% of his taste versus a no-skill baseline."
+      "summary": "Floated proof of work as a feed ranking method, where agents report tokens used on content."
     },
     {
-      "name": "Zara Zhang",
-      "summary": "Posted a short observation that being good at LinkedIn probably makes you bad at X, plus a personal remark about a store."
+      "name": "Josh Woodward",
+      "summary": "Showed interactive sites made from sources with Gemini Notebook, and posted a short welcome message."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Outlined 2026 infra phases from vibe coding to agentic CI and asked what comes next."
     },
     {
       "name": "Aditya Agarwal",
-      "summary": "Shared a note from an Indian aerospace company about a early-morning first flight on a remote runway, with the line \"Ad Astra.\""
+      "summary": "Said their interpretability work reached the point of applying it to leading frontier models, and announced a $24M seed round for BharatSemi."
+    },
+    {
+      "name": "Garry Tan",
+      "summary": "Previewed a Rust GBrain backend to replace Postgres for vector search, and announced Degla drone autonomy for search and rescue."
+    },
+    {
+      "name": "Amjad Masad",
+      "summary": "Posted brief reactions, with the most-liked post a one-line jab at a cult."
+    },
+    {
+      "name": "Google Labs",
+      "summary": "Welcomed the Howie team to Google Labs to build AI tools for small businesses."
+    },
+    {
+      "name": "Nan Yu",
+      "summary": "Posted brief personal reactions with no substantive content."
     },
     {
       "name": "Swyx",
-      "summary": "Posted several short, minor notes about a talk recap written by clanker. Nothing substantive."
+      "summary": "Posted brief personal and off-topic remarks with no substantive content."
     }
   ]
 }
