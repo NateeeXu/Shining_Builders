@@ -1,91 +1,100 @@
 {
-  "generatedAt": "2026-11-19T05:19:48.316Z",
-  "sourceGeneratedAt": "2026-11-19T05:19:21.163Z",
+  "generatedAt": "2026-11-20T05:06:08.049Z",
+  "sourceGeneratedAt": "2026-11-20T05:05:39.071Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts were dominated by reactions to the 6.2 Sol and Astra model release from OpenAI, with mixed reviews between influencers and users. The most notable beyond that was Devin's shift to multi-agent teams of persistent bots, and Replit's agent swarms launch.",
+  "brief": "Today's posts centered on AI agents coordinating with each other, including the OpenAI/Hugging Face incident and new agent tools. Beyond that, Guillermo Rauch noted that AI Gateway token demand on Vercel has grown about 40% month over month.",
   "themes": [
     {
-      "label": "6.2 Sol and Astra release",
-      "summary": "Builders praised the efficiency and speed of the new models while noting they still need work on taste and ease of use.",
+      "label": "Agent message boards",
+      "summary": "Builders described message boards as a coordination layer for agents, citing Replit Missions and Vercel's headless Slack-style board primitive.",
       "postIds": [
-        "tweet-2122862646265520150",
-        "tweet-2122929634916679820",
-        "tweet-2122754551187132438",
-        "tweet-2122798039899263456",
-        "tweet-2122798042734633452",
-        "tweet-2122929829863735594",
-        "tweet-2122869524773179771",
-        "tweet-2122858139989012510"
+        "tweet-2123133509028008331",
+        "tweet-2123237505810178434"
       ]
     },
     {
-      "label": "Agent swarms and multi-agent teams",
-      "summary": "Builders described running many agents in parallel, with Replit launching swarms and Devin bots acting as persistent multi-agent teams.",
+      "label": "Google Project Genie and Gemini",
+      "summary": "Google Labs and Josh Woodward announced Project Genie on Genie 4 and Gemini 4 Neon, with new agents and world-building features.",
       "postIds": [
-        "tweet-2122809964649459861",
-        "tweet-2122746401482592549",
-        "tweet-2122818291144229075",
-        "tweet-2122817367679901830"
+        "tweet-2123118145552749015",
+        "tweet-2123123552052494529",
+        "tweet-2123177835254952348"
+      ]
+    },
+    {
+      "label": "Agents that run continuously",
+      "summary": "Aaron Levie and Google Labs described agents moving from answering questions to orchestrating long-running work, with Stitch Loop opening a waitlist.",
+      "postIds": [
+        "tweet-2123278949749059756",
+        "tweet-2123102389775573314"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Swyx",
-      "summary": "Said Astra is his daily workflow automation model, running content publishing for Latent Space and AI Engineer. Also posted on Devin's multi-agent bot design and its persistent memory per bot."
-    },
-    {
       "name": "Amjad Masad",
-      "summary": "Announced agent swarms on Replit, where spinning up many agents is now one prompt away. Also posted on using agent swarms to optimize software performance and on iOS-quality gestures on the web."
+      "summary": "Pointed to the OpenAI/Hugging Face incident and said Replit Missions lets you watch agents coordinate and talk to each other."
     },
     {
-      "name": "Latent Space",
-      "summary": "Released a podcast episode with Andreas Blattmann and Dustin Podell of Black Forest Labs, covering latent diffusion, Stable Diffusion, and the Flux models."
-    },
-    {
-      "name": "Thibault Sottiaux",
-      "summary": "Explained that mixed reviews of 6.2 Sol and Astra partly reflect late changes not retested. Said the models are very efficient and recommended trying 6.2 Sol ultrafast."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Noted the shifting model rankings on X, with Anthropic's 5.5 and Gemini's Carbon getting attention. Also posted a personal year-end reflection."
-    },
-    {
-      "name": "Josh Woodward",
-      "summary": "Announced Gemini can now do tasks free in six countries, running on Gemini 4 Hydrogen, with features like calling businesses and paying via Google Pay."
-    },
-    {
-      "name": "Dan Shipper",
-      "summary": "Shared @every's full ratings for Astra and Sol 6.2, calling it a hard-to-remember frontier release. Also introduced an inverse @roon bench."
+      "name": "AI & I by Every",
+      "summary": "Shared a podcast episode with Notion founder Ivan Zhao on how AI changes no-code software building."
     },
     {
       "name": "Guillermo Rauch",
-      "summary": "Highlighted OpenAI's cybersecurity-capable models and Vercel's DeepsecBench, a stealth benchmark. Also called agent-browser vitals a big deal for web performance."
+      "summary": "Introduced Vercel's agent message board as headless Slack for agents, and said AI Gateway token demand has grown about 40% month over month."
     },
     {
-      "name": "Peter Yang",
-      "summary": "Argued models have short shelf lives, so skills should work across any new model. Other posts were a personal joke and a claim about testing Astra 6.2 on website design."
+      "name": "Josh Woodward",
+      "summary": "Introduced Gemini 4 Neon as faster and cheaper, and announced a new Project Genie experience for Google AI Ultra subscribers."
+    },
+    {
+      "name": "Google Labs",
+      "summary": "Launched Stitch Loop, an always-on product agent with a waitlist, and Project Genie on Genie 4 with live prompting and a gallery."
+    },
+    {
+      "name": "Aaron Levie",
+      "summary": "Argued that agents are moving toward setting goals and designing and improving solutions on their own over long-running work."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Gave founders fundraising advice to lead with what they believe will be true if the company succeeds, and joked about VC liquidity."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Said GPT-6.2 Astra performs well on the hardest tasks, shared chip optimization results, and asked how 6.2 Sol is treating people."
     },
     {
       "name": "Sam Altman",
-      "summary": "Announced 6.2 Sol and Astra as out, token-efficient, with 6.2 Sol ultrafast highlighted. Said usability work will be prioritized in upcoming releases."
+      "summary": "Praised Greg Brockman in a DealBook appearance, saying OpenAI would not exist without him."
     },
     {
-      "name": "Matt Turck",
-      "summary": "Posted Daytona's macOS sandboxes for computer-use agents and announced a $30M seed investment in Remanence Labs focused on continual learning."
+      "name": "Thariq",
+      "summary": "Said making your own software is hard because it is hard to know what you want, and that good software reflects strong opinions."
     },
     {
-      "name": "Ryo Lu",
-      "summary": "Posted one short note that crazy ideas are now possible but still take care and effort."
+      "name": "Aditya Agarwal",
+      "summary": "Argued early-stage VCs can invest in AI by taking more risk and working on frontier problems, and said stablecoins may aid US soft power."
     },
     {
-      "name": "Garry Tan",
-      "summary": "Posted about a board shareholder vote and urged shareholders and employees to speak up. Other posts were brief reactions."
+      "name": "Swyx",
+      "summary": "Posted mostly short personal and light posts today, including a note that the company is FCF profitable."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Raised questions about why Jensen Huang resigned from Nvidia and the board's rapid move on."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Posted mostly personal and minor updates, including an invitation to a stream with almost 4k people."
     },
     {
       "name": "Zara Zhang",
-      "summary": "All posts are personal or minor, including a visual share, a love of old commercials, and a one-shot prompt offer."
+      "summary": "Advised building a system that is a little viral every week rather than massively viral once, and shared a post about Stripe Press books."
+    },
+    {
+      "name": "Nan Yu",
+      "summary": "Posted a short personal remark with no substantive content."
     }
   ]
 }
