@@ -1,100 +1,97 @@
 {
-  "generatedAt": "2026-11-20T05:06:08.049Z",
-  "sourceGeneratedAt": "2026-11-20T05:05:39.071Z",
+  "generatedAt": "2026-11-21T04:59:58.574Z",
+  "sourceGeneratedAt": "2026-11-21T04:59:32.520Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts centered on AI agents coordinating with each other, including the OpenAI/Hugging Face incident and new agent tools. Beyond that, Guillermo Rauch noted that AI Gateway token demand on Vercel has grown about 40% month over month.",
+  "brief": "Today's posts centered on new model and product releases, including Gemini 4 Neon compared with Opus 5.5 and ChatGPT's new mobile experience. Beyond that, several builders reacted to Anthropic's success and to ongoing infrastructure attacks.",
   "themes": [
     {
-      "label": "Agent message boards",
-      "summary": "Builders described message boards as a coordination layer for agents, citing Replit Missions and Vercel's headless Slack-style board primitive.",
+      "label": "Gemini 4 Neon vs Opus 5.5",
+      "summary": "Peter Yang tested Gemini 4 Neon against Opus 5.5, finding Neon on par or better for writing and faster than Carbon, while Opus is still stronger at 3D and design.",
       "postIds": [
-        "tweet-2123133509028008331",
-        "tweet-2123237505810178434"
+        "tweet-2123540875733315815",
+        "tweet-2123620968568676457"
       ]
     },
     {
-      "label": "Google Project Genie and Gemini",
-      "summary": "Google Labs and Josh Woodward announced Project Genie on Genie 4 and Gemini 4 Neon, with new agents and world-building features.",
+      "label": "Agents as workflow infrastructure",
+      "summary": "Builders described agents as infrastructure: Vercel's Board as a headless state layer for agent factories, agent contracts, and personal agents built from one prompt.",
       "postIds": [
-        "tweet-2123118145552749015",
-        "tweet-2123123552052494529",
-        "tweet-2123177835254952348"
+        "tweet-2123468825538789380",
+        "tweet-2123535362568134894",
+        "tweet-2123535544718418191",
+        "tweet-2123553975945556144"
       ]
     },
     {
-      "label": "Agents that run continuously",
-      "summary": "Aaron Levie and Google Labs described agents moving from answering questions to orchestrating long-running work, with Stitch Loop opening a waitlist.",
+      "label": "ChatGPT mobile redesign",
+      "summary": "Thibault Sottiaux announced a new mobile ChatGPT experience with a dedicated tab, starting with Pro users, and asked for feedback before wider rollout.",
       "postIds": [
-        "tweet-2123278949749059756",
-        "tweet-2123102389775573314"
+        "tweet-2123557171321561133",
+        "tweet-2123612889416339762"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Amjad Masad",
-      "summary": "Pointed to the OpenAI/Hugging Face incident and said Replit Missions lets you watch agents coordinate and talk to each other."
-    },
-    {
-      "name": "AI & I by Every",
-      "summary": "Shared a podcast episode with Notion founder Ivan Zhao on how AI changes no-code software building."
-    },
-    {
       "name": "Guillermo Rauch",
-      "summary": "Introduced Vercel's agent message board as headless Slack for agents, and said AI Gateway token demand has grown about 40% month over month."
-    },
-    {
-      "name": "Josh Woodward",
-      "summary": "Introduced Gemini 4 Neon as faster and cheaper, and announced a new Project Genie experience for Google AI Ultra subscribers."
-    },
-    {
-      "name": "Google Labs",
-      "summary": "Launched Stitch Loop, an always-on product agent with a waitlist, and Project Genie on Genie 4 with live prompting and a gallery."
-    },
-    {
-      "name": "Aaron Levie",
-      "summary": "Argued that agents are moving toward setting goals and designing and improving solutions on their own over long-running work."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Gave founders fundraising advice to lead with what they believe will be true if the company succeeds, and joked about VC liquidity."
-    },
-    {
-      "name": "Thibault Sottiaux",
-      "summary": "Said GPT-6.2 Astra performs well on the hardest tasks, shared chip optimization results, and asked how 6.2 Sol is treating people."
-    },
-    {
-      "name": "Sam Altman",
-      "summary": "Praised Greg Brockman in a DealBook appearance, saying OpenAI would not exist without him."
-    },
-    {
-      "name": "Thariq",
-      "summary": "Said making your own software is hard because it is hard to know what you want, and that good software reflects strong opinions."
-    },
-    {
-      "name": "Aditya Agarwal",
-      "summary": "Argued early-stage VCs can invest in AI by taking more risk and working on frontier problems, and said stablecoins may aid US soft power."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Posted mostly short personal and light posts today, including a note that the company is FCF profitable."
+      "summary": "Argued that Vercel's Board is infrastructure for agents, with UI now cheap to generate, and posted a view that coding engineers gain outsized leverage. Also posted that a company's genesis is the agent that helps build it."
     },
     {
       "name": "Peter Yang",
-      "summary": "Raised questions about why Jensen Huang resigned from Nvidia and the board's rapid move on."
+      "summary": "Compared Gemini 4 Neon with Opus 5.5 in a video, finding Neon strong for writing and speed, and recommended the Gemini Ultra subscription. Other posts were brief comparisons and a note on Google's employee testing."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Congratulated Anthropic and explained SPC's role in its founding through two members. Also highlighted RoleCUA from Fig, a dataset mapping expert roles across months of work."
+    },
+    {
+      "name": "Amjad Masad",
+      "summary": "Shared a way to build a Muse-like personal agent with one prompt and said agent contracts are a paradigm others will copy. Other posts were short reactions."
+    },
+    {
+      "name": "No Priors",
+      "summary": "Released a podcast episode with Bob McGrew, CEO and co-founder of Arda, on why superintelligence needs the physical world and on American manufacturing."
+    },
+    {
+      "name": "Josh Woodward",
+      "summary": "Announced that the Gemini app on Mac can now perform tasks on the user's computer, a top feature request."
+    },
+    {
+      "name": "Peter Steinberger",
+      "summary": "Said he landed a fix in OpenClaw for users of the embedded harness, noting most harnesses are not yet updated."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Announced a new mobile ChatGPT experience with a pinnable tab for Pro users and said the team is aiming to improve the experience used by 1.2B users in place."
+    },
+    {
+      "name": "Thariq",
+      "summary": "Argued that software is both art and utility and that AI is both an Industrial Revolution and a Renaissance. Other posts were minimal."
+    },
+    {
+      "name": "Claude",
+      "summary": "Posted three link-only updates with no accompanying text."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Criticized hyperbolic social media predictions about SOTA with no consequences for inaccuracy. Other posts were brief reactions."
+    },
+    {
+      "name": "Garry Tan",
+      "summary": "Posted a short agreement with Bostrom's view that if nobody builds it, everyone dies."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Shared a conversation with Felix Rieseberg of Anthropic. Other posts were short reactions."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Proposed four layers where security for elderly users against scams and impersonation could work, from browser to payments. Other posts were brief reactions."
     },
     {
       "name": "Dan Shipper",
-      "summary": "Posted mostly personal and minor updates, including an invitation to a stream with almost 4k people."
-    },
-    {
-      "name": "Zara Zhang",
-      "summary": "Advised building a system that is a little viral every week rather than massively viral once, and shared a post about Stripe Press books."
-    },
-    {
-      "name": "Nan Yu",
-      "summary": "Posted a short personal remark with no substantive content."
+      "summary": "Asked who is working to stop the infrastructure attacks happening now and how people in AI can help."
     }
   ]
 }
