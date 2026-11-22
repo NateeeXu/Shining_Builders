@@ -1,97 +1,100 @@
 {
-  "generatedAt": "2026-11-21T04:59:58.574Z",
-  "sourceGeneratedAt": "2026-11-21T04:59:32.520Z",
+  "generatedAt": "2026-11-22T04:23:44.301Z",
+  "sourceGeneratedAt": "2026-11-22T04:23:17.515Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts centered on new model and product releases, including Gemini 4 Neon compared with Opus 5.5 and ChatGPT's new mobile experience. Beyond that, several builders reacted to Anthropic's success and to ongoing infrastructure attacks.",
+  "brief": "Today's posts centered on Gemini Neon and Antigravity, with several builders sharing launches and tooling tips. The most notable beyond that was a pair of separate Riemann proofs, one from AI and one from a human, announced the same day.",
   "themes": [
     {
-      "label": "Gemini 4 Neon vs Opus 5.5",
-      "summary": "Peter Yang tested Gemini 4 Neon against Opus 5.5, finding Neon on par or better for writing and faster than Carbon, while Opus is still stronger at 3D and design.",
+      "label": "Gemini Neon launch",
+      "summary": "Builders shared Gemini Neon as a fresh release, with Josh Woodward saying it was shipped to prod after a post from @UFO2002616.",
       "postIds": [
-        "tweet-2123540875733315815",
-        "tweet-2123620968568676457"
+        "tweet-2123943606906138868",
+        "tweet-2123943608516792480",
+        "tweet-2123879309463228445"
       ]
     },
     {
-      "label": "Agents as workflow infrastructure",
-      "summary": "Builders described agents as infrastructure: Vercel's Board as a headless state layer for agent factories, agent contracts, and personal agents built from one prompt.",
+      "label": "Antigravity remote control",
+      "summary": "Peter Yang shared a tip for using Antigravity threads remotely on mobile, saying its remote control works better than Claude's by default.",
       "postIds": [
-        "tweet-2123468825538789380",
-        "tweet-2123535362568134894",
-        "tweet-2123535544718418191",
-        "tweet-2123553975945556144"
+        "tweet-2123879309463228445",
+        "tweet-2123690305736396925"
       ]
     },
     {
-      "label": "ChatGPT mobile redesign",
-      "summary": "Thibault Sottiaux announced a new mobile ChatGPT experience with a dedicated tab, starting with Pro users, and asked for feedback before wider rollout.",
+      "label": "AI Riemann proofs",
+      "summary": "Amjad Masad and Aditya Agarwal pointed to two Riemann proofs, one from AI and one from a human, released at the same time.",
       "postIds": [
-        "tweet-2123557171321561133",
-        "tweet-2123612889416339762"
+        "tweet-2123874539218010491",
+        "tweet-2124019178843894078"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Guillermo Rauch",
-      "summary": "Argued that Vercel's Board is infrastructure for agents, with UI now cheap to generate, and posted a view that coding engineers gain outsized leverage. Also posted that a company's genesis is the agent that helps build it."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Compared Gemini 4 Neon with Opus 5.5 in a video, finding Neon strong for writing and speed, and recommended the Gemini Ultra subscription. Other posts were brief comparisons and a note on Google's employee testing."
-    },
-    {
-      "name": "Aditya Agarwal",
-      "summary": "Congratulated Anthropic and explained SPC's role in its founding through two members. Also highlighted RoleCUA from Fig, a dataset mapping expert roles across months of work."
-    },
-    {
-      "name": "Amjad Masad",
-      "summary": "Shared a way to build a Muse-like personal agent with one prompt and said agent contracts are a paradigm others will copy. Other posts were short reactions."
-    },
-    {
-      "name": "No Priors",
-      "summary": "Released a podcast episode with Bob McGrew, CEO and co-founder of Arda, on why superintelligence needs the physical world and on American manufacturing."
-    },
-    {
       "name": "Josh Woodward",
-      "summary": "Announced that the Gemini app on Mac can now perform tasks on the user's computer, a top feature request."
+      "summary": "Announced that Gemini Neon was shipped to prod after a Friday session, with a tip to long-click the model picker on the web. Also thanked @UFO2002616 for the inspiration."
     },
     {
-      "name": "Peter Steinberger",
-      "summary": "Said he landed a fix in OpenClaw for users of the embedded harness, noting most harnesses are not yet updated."
+      "name": "Guillermo Rauch",
+      "summary": "Described the eve personal shopper agent and its new infrastructure, and recommended trying the template. Also noted that ISO 42001:2023 certification now covers Vercel's AI infra."
     },
     {
-      "name": "Thibault Sottiaux",
-      "summary": "Announced a new mobile ChatGPT experience with a pinnable tab for Pro users and said the team is aiming to improve the experience used by 1.2B users in place."
+      "name": "Aaron Levie",
+      "summary": "Argued that models now solve problems that agents cannot be told how to solve, and expects this to affect finance, legal, life sciences and cyber. Also posted a short note about a big day in math."
     },
     {
-      "name": "Thariq",
-      "summary": "Argued that software is both art and utility and that AI is both an Industrial Revolution and a Renaissance. Other posts were minimal."
+      "name": "Latent Space",
+      "summary": "Published a podcast episode with Cristina Cordova, COO of Linear, on scaling Linear's go-to-market to $100M ARR and on how AI changes issue tracking."
     },
     {
-      "name": "Claude",
-      "summary": "Posted three link-only updates with no accompanying text."
+      "name": "Zara Zhang",
+      "summary": "Advised against sending clients Claude Artifacts or ChatGPT sites, and said that if you curate you should create."
     },
     {
       "name": "Swyx",
-      "summary": "Criticized hyperbolic social media predictions about SOTA with no consequences for inaccuracy. Other posts were brief reactions."
+      "summary": "Asked whether Cursor's origin product has actions or CI/CD yet, and noted that LangChain is rebuilding content, context and software factory tooling after its founder left dbt."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Shared a tip for using Antigravity threads remotely on mobile and said its remote control beats Claude's. Also posted a light note about a Jensen Huang story and a game download."
+    },
+    {
+      "name": "Madhu Guru",
+      "summary": "Asked for AI people to meet in Chennai at the end of November, noting he now builds AI products at Meta after leading product for Gemini, Veo and Nano Banana at Google."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Announced an upgraded desktop app that is faster and simpler, and welcomed Akshay with a first tweet. Also joked that an internal experience became too fun."
+    },
+    {
+      "name": "Amjad Masad",
+      "summary": "Commented on two Riemann proofs, one from AI and one human, and wondered how they will differ in elegance. Also asked whether it is a bear market."
     },
     {
       "name": "Garry Tan",
-      "summary": "Posted a short agreement with Bostrom's view that if nobody builds it, everyone dies."
+      "summary": "Argued against an asset seizure tax and said California should encourage new startups and spend wisely."
     },
     {
-      "name": "Matt Turck",
-      "summary": "Shared a conversation with Felix Rieseberg of Anthropic. Other posts were short reactions."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Proposed four layers where security for elderly users against scams and impersonation could work, from browser to payments. Other posts were brief reactions."
+      "name": "Thariq",
+      "summary": "Described a sports anime game built around elemental bending and said he is now more against handoff. Otherwise mostly personal or playful posts."
     },
     {
       "name": "Dan Shipper",
-      "summary": "Asked who is working to stop the infrastructure attacks happening now and how people in AI can help."
+      "summary": "Posted a single short quote about the science of something far greater. Otherwise minor."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Pointed to work on Riemann and a pancreatic cancer pill, and promoted a Nov 25 event in India featuring unit21 and zumutor founders."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Shared a humorous story about automated agentic emailing failing to get a meeting at Slush. Otherwise personal."
+    },
+    {
+      "name": "Nan Yu",
+      "summary": "Mentioned performance and quality-of-life improvements for frequently used actions. Otherwise minor."
     }
   ]
 }
