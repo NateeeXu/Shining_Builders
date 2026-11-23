@@ -1,100 +1,91 @@
 {
-  "generatedAt": "2026-11-22T04:23:44.301Z",
-  "sourceGeneratedAt": "2026-11-22T04:23:17.515Z",
+  "generatedAt": "2026-11-23T05:00:01.746Z",
+  "sourceGeneratedAt": "2026-11-23T04:59:34.131Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts centered on Gemini Neon and Antigravity, with several builders sharing launches and tooling tips. The most notable beyond that was a pair of separate Riemann proofs, one from AI and one from a human, announced the same day.",
+  "brief": "Posts today centered on the Riemann Hypothesis breakthrough and how builders work with models, alongside the GTA VI launch and a ChatGPT/Codex desktop update. The most notable item beyond that was Thibault Sottiaux asking users what still needs attention after the Codex desktop app update.",
   "themes": [
     {
-      "label": "Gemini Neon launch",
-      "summary": "Builders shared Gemini Neon as a fresh release, with Josh Woodward saying it was shipped to prod after a post from @UFO2002616.",
+      "label": "Riemann Hypothesis AI breakthrough",
+      "summary": "Builders debated how seriously to take AI's role in the Riemann Hypothesis result, with Aaron Levie calling it an era-changing shift and Matt Turck noting the hype outran understanding.",
       "postIds": [
-        "tweet-2123943606906138868",
-        "tweet-2123943608516792480",
-        "tweet-2123879309463228445"
+        "tweet-2124252844710887549",
+        "tweet-2124239403107459490",
+        "tweet-2124239684536840682",
+        "tweet-2124239686482923553"
       ]
     },
     {
-      "label": "Antigravity remote control",
-      "summary": "Peter Yang shared a tip for using Antigravity threads remotely on mobile, saying its remote control works better than Claude's by default.",
+      "label": "GTA VI and AI-built PC ports",
+      "summary": "Builders connected the GTA VI debate to AI, with Amjad Masad citing a student recompiling the game for PC and Garry Tan floating a vibe-coded PC port.",
       "postIds": [
-        "tweet-2123879309463228445",
-        "tweet-2123690305736396925"
+        "tweet-2124345037408686228",
+        "tweet-2124154280450134231",
+        "tweet-2124197623683027363"
       ]
     },
     {
-      "label": "AI Riemann proofs",
-      "summary": "Amjad Masad and Aditya Agarwal pointed to two Riemann proofs, one from AI and one from a human, released at the same time.",
+      "label": "ChatGPT and Codex desktop updates",
+      "summary": "Builders reacted to the new ChatGPT mobile app and the Codex desktop update, with Thibault Sottiaux asking for feedback on remaining gaps and Peter Yang suggesting UI fixes.",
       "postIds": [
-        "tweet-2123874539218010491",
-        "tweet-2124019178843894078"
+        "tweet-2124322968499282388",
+        "tweet-2124217176655843483",
+        "tweet-2124217179717648537"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Josh Woodward",
-      "summary": "Announced that Gemini Neon was shipped to prod after a Friday session, with a tip to long-click the model picker on the web. Also thanked @UFO2002616 for the inspiration."
-    },
-    {
-      "name": "Guillermo Rauch",
-      "summary": "Described the eve personal shopper agent and its new infrastructure, and recommended trying the template. Also noted that ISO 42001:2023 certification now covers Vercel's AI infra."
-    },
-    {
-      "name": "Aaron Levie",
-      "summary": "Argued that models now solve problems that agents cannot be told how to solve, and expects this to affect finance, legal, life sciences and cyber. Also posted a short note about a big day in math."
-    },
-    {
-      "name": "Latent Space",
-      "summary": "Published a podcast episode with Cristina Cordova, COO of Linear, on scaling Linear's go-to-market to $100M ARR and on how AI changes issue tracking."
-    },
-    {
-      "name": "Zara Zhang",
-      "summary": "Advised against sending clients Claude Artifacts or ChatGPT sites, and said that if you curate you should create."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Asked whether Cursor's origin product has actions or CI/CD yet, and noted that LangChain is rebuilding content, context and software factory tooling after its founder left dbt."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Shared a tip for using Antigravity threads remotely on mobile and said its remote control beats Claude's. Also posted a light note about a Jensen Huang story and a game download."
-    },
-    {
-      "name": "Madhu Guru",
-      "summary": "Asked for AI people to meet in Chennai at the end of November, noting he now builds AI products at Meta after leading product for Gemini, Veo and Nano Banana at Google."
-    },
-    {
-      "name": "Thibault Sottiaux",
-      "summary": "Announced an upgraded desktop app that is faster and simpler, and welcomed Akshay with a first tweet. Also joked that an internal experience became too fun."
-    },
-    {
       "name": "Amjad Masad",
-      "summary": "Commented on two Riemann proofs, one from AI and one human, and wondered how they will differ in elegance. Also asked whether it is a bear market."
-    },
-    {
-      "name": "Garry Tan",
-      "summary": "Argued against an asset seizure tax and said California should encourage new startups and spend wisely."
+      "summary": "Highlighted a high school student recompiling GTA VI for PC using GitHub issues to coordinate agent swarms. He also announced that Amuse, built by Replit Missions, is open source."
     },
     {
       "name": "Thariq",
-      "summary": "Described a sports anime game built around elemental bending and said he is now more against handoff. Otherwise mostly personal or playful posts."
+      "summary": "Argued that working with models is a deep technical skill that grows in importance as models improve. He also warned against disintermediating ourselves too quickly."
     },
     {
-      "name": "Dan Shipper",
-      "summary": "Posted a single short quote about the science of something far greater. Otherwise minor."
+      "name": "Peter Yang",
+      "summary": "Shared a tip for pinning Codex to the ChatGPT mobile bottom nav and suggested adding local Codex threads to the left nav. He also commented on GTA VI complaints."
     },
     {
-      "name": "Aditya Agarwal",
-      "summary": "Pointed to work on Riemann and a pancreatic cancer pill, and promoted a Nov 25 event in India featuring unit21 and zumutor founders."
+      "name": "Thibault Sottiaux",
+      "summary": "Said the team is preparing another big update and asked users what still needs attention after the ChatGPT/Codex desktop update. His other post was a brief remark about checking out threads."
     },
     {
       "name": "Matt Turck",
-      "summary": "Shared a humorous story about automated agentic emailing failing to get a meeting at Slush. Otherwise personal."
+      "summary": "Recapped the first Slush conference, praising its organization and format. He also joked about the Riemann Hypothesis hype and posted a personal remark."
+    },
+    {
+      "name": "Aaron Levie",
+      "summary": "Shared a post arguing the Riemann Hypothesis breakthrough matters beyond math because problem-solving is changing. He said no current AI alone can do this work."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Recommended a piece on benchmarks, noting that the numbers may not mean what they seem to. He also joked about bad technology takes."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Posted a brief call for a tool for AI feats, with little context. His only post was one line."
+    },
+    {
+      "name": "Garry Tan",
+      "summary": "Said he uses the tool for about half his work with his software factory and calls it the best experience so far. He also suggested a vibe-coded GTA VI PC port could come soon."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Questioned why AI providers were secretly phoning home, calling it alarming. His post was a single question."
+    },
+    {
+      "name": "Zara Zhang",
+      "summary": "Posted a short message: Build for yourself. Nothing more substantive today."
+    },
+    {
+      "name": "No Priors",
+      "summary": "Published a podcast episode with Max Jaderberg, President of Isomorphic Labs, on AI-driven drug discovery and predicting toxicity before patient trials."
     },
     {
       "name": "Nan Yu",
-      "summary": "Mentioned performance and quality-of-life improvements for frequently used actions. Otherwise minor."
+      "summary": "Posted a short quip, Forget second brain. Third brain. All personal or minor posts today."
     }
   ]
 }
