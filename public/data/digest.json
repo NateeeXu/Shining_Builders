@@ -1,91 +1,105 @@
 {
-  "generatedAt": "2026-11-23T05:00:01.746Z",
-  "sourceGeneratedAt": "2026-11-23T04:59:34.131Z",
+  "generatedAt": "2026-11-24T07:48:47.169Z",
+  "sourceGeneratedAt": "2026-11-24T07:48:07.321Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Posts today centered on the Riemann Hypothesis breakthrough and how builders work with models, alongside the GTA VI launch and a ChatGPT/Codex desktop update. The most notable item beyond that was Thibault Sottiaux asking users what still needs attention after the Codex desktop app update.",
+  "brief": "Anthropic's Claude dominated today's posts, with Claude Ship in beta for Team and Enterprise and a new plugins system for connectors and skills. Replit's research on scaling laws for agent swarms was the most notable beyond that.",
   "themes": [
     {
-      "label": "Riemann Hypothesis AI breakthrough",
-      "summary": "Builders debated how seriously to take AI's role in the Riemann Hypothesis result, with Aaron Levie calling it an era-changing shift and Matt Turck noting the hype outran understanding.",
+      "label": "Claude Ship and code review",
+      "summary": "Boris Cherny said Claude Ship launches in beta for Team and Enterprise, alongside Code Review, PR Steward and Claude Approvals.",
       "postIds": [
-        "tweet-2124252844710887549",
-        "tweet-2124239403107459490",
-        "tweet-2124239684536840682",
-        "tweet-2124239686482923553"
+        "tweet-2124961485801836573",
+        "tweet-2124961488691740941",
+        "tweet-2124961487454384442"
       ]
     },
     {
-      "label": "GTA VI and AI-built PC ports",
-      "summary": "Builders connected the GTA VI debate to AI, with Amjad Masad citing a student recompiling the game for PC and Garry Tan floating a vibe-coded PC port.",
+      "label": "Claude plugins and EFS",
+      "summary": "Claude posted about unified plugins for connectors and skills, and Enterprise Frontier Safeguards in public beta for zero data retention customers.",
       "postIds": [
-        "tweet-2124345037408686228",
-        "tweet-2124154280450134231",
-        "tweet-2124197623683027363"
+        "tweet-2124970294523945328",
+        "tweet-2124929944530587712",
+        "tweet-2124929946925793294"
       ]
     },
     {
-      "label": "ChatGPT and Codex desktop updates",
-      "summary": "Builders reacted to the new ChatGPT mobile app and the Codex desktop update, with Thibault Sottiaux asking for feedback on remaining gaps and Peter Yang suggesting UI fixes.",
+      "label": "Agent swarm scaling research",
+      "summary": "Amjad Masad shared Replit research finding that agent swarm performance depends on how agents organize, with decentralized swarms scaling better.",
       "postIds": [
-        "tweet-2124322968499282388",
-        "tweet-2124217176655843483",
-        "tweet-2124217179717648537"
+        "tweet-2124969305674748175",
+        "tweet-2124947675913367832"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Amjad Masad",
-      "summary": "Highlighted a high school student recompiling GTA VI for PC using GitHub issues to coordinate agent swarms. He also announced that Amuse, built by Replit Missions, is open source."
-    },
-    {
-      "name": "Thariq",
-      "summary": "Argued that working with models is a deep technical skill that grows in importance as models improve. He also warned against disintermediating ourselves too quickly."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Shared a tip for pinning Codex to the ChatGPT mobile bottom nav and suggested adding local Codex threads to the left nav. He also commented on GTA VI complaints."
-    },
-    {
-      "name": "Thibault Sottiaux",
-      "summary": "Said the team is preparing another big update and asked users what still needs attention after the ChatGPT/Codex desktop update. His other post was a brief remark about checking out threads."
-    },
-    {
-      "name": "Matt Turck",
-      "summary": "Recapped the first Slush conference, praising its organization and format. He also joked about the Riemann Hypothesis hype and posted a personal remark."
-    },
-    {
       "name": "Aaron Levie",
-      "summary": "Shared a post arguing the Riemann Hypothesis breakthrough matters beyond math because problem-solving is changing. He said no current AI alone can do this work."
+      "summary": "Argued that agents decouple services output from headcount, so one engineer or designer can match many. Also posted that 2026 brings frequent once-a-decade news."
     },
     {
-      "name": "Dan Shipper",
-      "summary": "Recommended a piece on benchmarks, noting that the numbers may not mean what they seem to. He also joked about bad technology takes."
+      "name": "Amjad Masad",
+      "summary": "Shared Replit research on scaling laws for agent swarms, showing organization matters more than compute. Also posted about a meeting with VP JD Vance on American open-weight AI."
+    },
+    {
+      "name": "Boris Cherny",
+      "summary": "Launched Claude Ship in beta for Team and Enterprise, saying he uses it all day. Also described Code Review, PR Steward and Claude Approvals for faster shipping."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Promoted a proactive agent that does not need prompting, and wrote about America's appeal abroad. Other posts were brief."
+    },
+    {
+      "name": "Claude",
+      "summary": "Announced Enterprise Frontier Safeguards in public beta with zero data retention, and unified connectors and skills into plugins with over 10,000 available."
     },
     {
       "name": "Guillermo Rauch",
-      "summary": "Posted a brief call for a tool for AI feats, with little context. His only post was one line."
+      "summary": "Said a personal eval of his coding sessions picked Gemini over Opus, and announced Vercel is doubling down on Japan."
     },
     {
       "name": "Garry Tan",
-      "summary": "Said he uses the tool for about half his work with his software factory and calls it the best experience so far. He also suggested a vibe-coded GTA VI PC port could come soon."
+      "summary": "Offered a startup tip to repeatedly ask whether the company is dying to spot threats early."
     },
     {
-      "name": "Swyx",
-      "summary": "Questioned why AI providers were secretly phoning home, calling it alarming. His post was a single question."
+      "name": "Thariq",
+      "summary": "Argued X payouts are a good model for lean software companies that reward users who help them grow."
+    },
+    {
+      "name": "Madhu Guru",
+      "summary": "Argued that data encodes high-value knowledge and expertise and remains central to intelligence development. Also announced plans for a meetup."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Posted lighthearted commentary on 2027 job titles and on a busy AI news month. Posts were personal or minor."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Posted short messages urging readers to build a personal benchmark, linking a how-to from a colleague."
     },
     {
       "name": "Zara Zhang",
-      "summary": "Posted a short message: Build for yourself. Nothing more substantive today."
+      "summary": "Wrote that posting daily can coexist with privacy, sharing only the small slice of life that is interesting and comfortable. Also shared a guide to preventing AI slop in design."
     },
     {
-      "name": "No Priors",
-      "summary": "Published a podcast episode with Max Jaderberg, President of Isomorphic Labs, on AI-driven drug discovery and predicting toxicity before patient trials."
+      "name": "Thibault Sottiaux",
+      "summary": "Said ChatGPT answer quality will jump by year end and that OpenAI uses dots internally, including to build the dots system. Also promoted a talk on securing open source software."
     },
     {
-      "name": "Nan Yu",
-      "summary": "Posted a short quip, Forget second brain. Third brain. All personal or minor posts today."
+      "name": "Sam Altman",
+      "summary": "Shared a link he called really good, and posted a one-word reply praising Jensen. Posts were minor."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Criticized the ChatGPT Dots feature for sending emails without review and stopping responses. Other posts were personal."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Posted about Jensen returning and a joke about AI news. Posts were minor."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Responded to a Microsoft effort and suggested other labs should join. Posts were minor."
     }
   ]
 }
