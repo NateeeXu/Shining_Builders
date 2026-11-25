@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-24T07:48:47.169Z",
-  "sourceGeneratedAt": "2026-11-24T07:48:07.321Z",
+  "generatedAt": "2026-11-25T06:21:13.481Z",
+  "sourceGeneratedAt": "2026-11-25T06:20:44.989Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Anthropic's Claude dominated today's posts, with Claude Ship in beta for Team and Enterprise and a new plugins system for connectors and skills. Replit's research on scaling laws for agent swarms was the most notable beyond that.",
+  "brief": "Claude dominated today's posts, with Claude Ship in beta, Claude plugins combining connectors and skills, and Enterprise Frontier Safeguards in public beta. Beyond that, Replit published research on scaling laws for agent swarms, finding that organization matters as much as agent count.",
   "themes": [
     {
       "label": "Claude Ship and code review",
-      "summary": "Boris Cherny said Claude Ship launches in beta for Team and Enterprise, alongside Code Review, PR Steward and Claude Approvals.",
+      "summary": "Boris Cherny said Claude Ship is in beta for Team and Enterprise, pairing Code Review, PR Steward and Claude Approvals to handle PRs.",
       "postIds": [
         "tweet-2124961485801836573",
         "tweet-2124961488691740941",
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "label": "Claude plugins and EFS",
-      "summary": "Claude posted about unified plugins for connectors and skills, and Enterprise Frontier Safeguards in public beta for zero data retention customers.",
+      "label": "Claude plugins and safeguards",
+      "summary": "Anthropic's Claude account announced plugins that merge connectors and skills, plus Enterprise Frontier Safeguards in public beta with zero data retention.",
       "postIds": [
         "tweet-2124970294523945328",
         "tweet-2124929944530587712",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Agent swarm scaling research",
-      "summary": "Amjad Masad shared Replit research finding that agent swarm performance depends on how agents organize, with decentralized swarms scaling better.",
+      "summary": "Amjad Masad shared Replit research finding that agent swarm results depend on how agents organize, with decentralized swarms scaling better.",
       "postIds": [
         "tweet-2124969305674748175",
         "tweet-2124947675913367832"
@@ -34,72 +34,72 @@
   ],
   "builders": [
     {
-      "name": "Aaron Levie",
-      "summary": "Argued that agents decouple services output from headcount, so one engineer or designer can match many. Also posted that 2026 brings frequent once-a-decade news."
-    },
-    {
       "name": "Amjad Masad",
-      "summary": "Shared Replit research on scaling laws for agent swarms, showing organization matters more than compute. Also posted about a meeting with VP JD Vance on American open-weight AI."
+      "summary": "Shared Replit research on agent swarm scaling laws, showing decentralized swarms scaled better than centralized ones. He also discussed American open-weight AI leadership in a meeting with VP JD Vance."
     },
     {
       "name": "Boris Cherny",
-      "summary": "Launched Claude Ship in beta for Team and Enterprise, saying he uses it all day. Also described Code Review, PR Steward and Claude Approvals for faster shipping."
-    },
-    {
-      "name": "Aditya Agarwal",
-      "summary": "Promoted a proactive agent that does not need prompting, and wrote about America's appeal abroad. Other posts were brief."
+      "summary": "Launched Claude Ship in beta for Team and Enterprise plans and described Code Review, PR Steward and Claude Approvals. He said the tools multiply his velocity."
     },
     {
       "name": "Claude",
-      "summary": "Announced Enterprise Frontier Safeguards in public beta with zero data retention, and unified connectors and skills into plugins with over 10,000 available."
+      "summary": "Announced Enterprise Frontier Safeguards in public beta with zero data retention, and launched plugins combining connectors and skills across plans."
     },
     {
       "name": "Guillermo Rauch",
-      "summary": "Said a personal eval of his coding sessions picked Gemini over Opus, and announced Vercel is doubling down on Japan."
+      "summary": "Said a personal eval of his coding sessions picked Gemini Neon over Opus. He also posted about Vercel expanding in Japan."
+    },
+    {
+      "name": "Aaron Levie",
+      "summary": "Argued that agents decouple services output from headcount, so one engineer or designer can produce what many once did."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Excited about a proactive agent launch that needs no prompting. He also wrote about America's appeal to ambitious builders abroad."
     },
     {
       "name": "Garry Tan",
-      "summary": "Offered a startup tip to repeatedly ask whether the company is dying to spot threats early."
+      "summary": "Shared a startup tip to ask 'are we dying?' in a loop to spot threats early."
     },
     {
       "name": "Thariq",
-      "summary": "Argued X payouts are a good model for lean software companies that reward users who help them grow."
+      "summary": "Praised X payouts as a model for lean software companies that reward users who help them grow."
     },
     {
       "name": "Madhu Guru",
-      "summary": "Argued that data encodes high-value knowledge and expertise and remains central to intelligence development. Also announced plans for a meetup."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Posted lighthearted commentary on 2027 job titles and on a busy AI news month. Posts were personal or minor."
+      "summary": "Argued that data encodes high value knowledge, taste and expertise and is central to model development. He also announced a planned meetup."
     },
     {
       "name": "Dan Shipper",
-      "summary": "Posted short messages urging readers to build a personal benchmark, linking a how-to from a colleague."
+      "summary": "Urged builders to create personal benchmarks and shared a guide to making one."
     },
     {
       "name": "Zara Zhang",
-      "summary": "Wrote that posting daily can coexist with privacy, sharing only the small slice of life that is interesting and comfortable. Also shared a guide to preventing AI slop in design."
+      "summary": "Argued that people can post daily and still be private by sharing only what is interesting and comfortable. She also shared a guide to preventing AI slop in design."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Posted light commentary on AI news in November and a joke about 2027 job titles built around swarms."
     },
     {
       "name": "Thibault Sottiaux",
-      "summary": "Said ChatGPT answer quality will jump by year end and that OpenAI uses dots internally, including to build the dots system. Also promoted a talk on securing open source software."
+      "summary": "Highlighted OpenAI work patching open-source software and said ChatGPT answer quality will improve by year end. He also noted dots are becoming a primary way to get work done at OpenAI."
     },
     {
       "name": "Sam Altman",
-      "summary": "Shared a link he called really good, and posted a one-word reply praising Jensen. Posts were minor."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Criticized the ChatGPT Dots feature for sending emails without review and stopping responses. Other posts were personal."
+      "summary": "Shared a link he called really good and posted a short reply about Jensen."
     },
     {
       "name": "Matt Turck",
-      "summary": "Posted about Jensen returning and a joke about AI news. Posts were minor."
+      "summary": "Posted brief commentary on Jensen returning and a joke about AI news."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Reported that ChatGPT Dots still feels buggy, sending emails without review and stopping responses. Other posts are personal or minor."
     },
     {
       "name": "Swyx",
-      "summary": "Responded to a Microsoft effort and suggested other labs should join. Posts were minor."
+      "summary": "Reacted to a Microsoft effort and suggested Alexandr Wang join to unite labs. Other posts are minor."
     }
   ]
 }
