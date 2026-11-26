@@ -1,105 +1,105 @@
 {
-  "generatedAt": "2026-11-25T06:21:13.481Z",
-  "sourceGeneratedAt": "2026-11-25T06:20:44.989Z",
+  "generatedAt": "2026-11-26T06:12:57.152Z",
+  "sourceGeneratedAt": "2026-11-26T06:12:28.854Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Claude dominated today's posts, with Claude Ship in beta, Claude plugins combining connectors and skills, and Enterprise Frontier Safeguards in public beta. Beyond that, Replit published research on scaling laws for agent swarms, finding that organization matters as much as agent count.",
+  "brief": "Today's posts centered on AI coding agents and harnesses, plus fallout from Jensen Huang's return to Nvidia and sovereign AI. Unsupervised Learning's emergency episode with Jordan Schneider covered the geopolitics, and Amjad Masad argued that token demand grows in step functions.",
   "themes": [
     {
-      "label": "Claude Ship and code review",
-      "summary": "Boris Cherny said Claude Ship is in beta for Team and Enterprise, pairing Code Review, PR Steward and Claude Approvals to handle PRs.",
+      "label": "Jensen Huang's Nvidia return",
+      "summary": "Builders framed Huang's return as a sovereign AI and US-China story, and debated how little predictions about it were worth.",
       "postIds": [
-        "tweet-2124961485801836573",
-        "tweet-2124961488691740941",
-        "tweet-2124961487454384442"
+        "podcast-36adfe0a-61bd-45ea-8069-54304171e5dd",
+        "tweet-2125353849057853876",
+        "tweet-2125355549202194801"
       ]
     },
     {
-      "label": "Claude plugins and safeguards",
-      "summary": "Anthropic's Claude account announced plugins that merge connectors and skills, plus Enterprise Frontier Safeguards in public beta with zero data retention.",
+      "label": "Agent harnesses and token demand",
+      "summary": "Builders described token use rising with each harness step, from autocomplete to swarms, and said adoption lags behind the tools.",
       "postIds": [
-        "tweet-2124970294523945328",
-        "tweet-2124929944530587712",
-        "tweet-2124929946925793294"
+        "tweet-2125287538911072753",
+        "tweet-2125442246543814686",
+        "tweet-2125320020666565096"
       ]
     },
     {
-      "label": "Agent swarm scaling research",
-      "summary": "Amjad Masad shared Replit research finding that agent swarm results depend on how agents organize, with decentralized swarms scaling better.",
+      "label": "Antigravity and Gemini workflows",
+      "summary": "Peter Yang shared a free course on running Gemini with Antigravity, covering orchestrator swarms, a /grill-me skill, and remote control.",
       "postIds": [
-        "tweet-2124969305674748175",
-        "tweet-2124947675913367832"
+        "tweet-2125246815884984398",
+        "tweet-2125246828082057462"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Amjad Masad",
-      "summary": "Shared Replit research on agent swarm scaling laws, showing decentralized swarms scaled better than centralized ones. He also discussed American open-weight AI leadership in a meeting with VP JD Vance."
+      "name": "Peter Steinberger",
+      "summary": "Reflected on a year of OC, saying it found a niche in prosumer and enterprise adoption and that the team now handles most of the work. Also noted a new memory system and an upcoming OpenClaw ID."
     },
     {
       "name": "Boris Cherny",
-      "summary": "Launched Claude Ship in beta for Team and Enterprise plans and described Code Review, PR Steward and Claude Approvals. He said the tools multiply his velocity."
-    },
-    {
-      "name": "Claude",
-      "summary": "Announced Enterprise Frontier Safeguards in public beta with zero data retention, and launched plugins combining connectors and skills across plans."
-    },
-    {
-      "name": "Guillermo Rauch",
-      "summary": "Said a personal eval of his coding sessions picked Gemini Neon over Opus. He also posted about Vercel expanding in Japan."
-    },
-    {
-      "name": "Aaron Levie",
-      "summary": "Argued that agents decouple services output from headcount, so one engineer or designer can produce what many once did."
-    },
-    {
-      "name": "Aditya Agarwal",
-      "summary": "Excited about a proactive agent launch that needs no prompting. He also wrote about America's appeal to ambitious builders abroad."
+      "summary": "Announced that MCP servers can now ship their own skills, so Claude Code can use them out of the box."
     },
     {
       "name": "Garry Tan",
-      "summary": "Shared a startup tip to ask 'are we dying?' in a loop to spot threats early."
-    },
-    {
-      "name": "Thariq",
-      "summary": "Praised X payouts as a model for lean software companies that reward users who help them grow."
-    },
-    {
-      "name": "Madhu Guru",
-      "summary": "Argued that data encodes high value knowledge, taste and expertise and is central to model development. He also announced a planned meetup."
-    },
-    {
-      "name": "Dan Shipper",
-      "summary": "Urged builders to create personal benchmarks and shared a guide to making one."
-    },
-    {
-      "name": "Zara Zhang",
-      "summary": "Argued that people can post daily and still be private by sharing only what is interesting and comfortable. She also shared a guide to preventing AI slop in design."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Posted light commentary on AI news in November and a joke about 2027 job titles built around swarms."
-    },
-    {
-      "name": "Thibault Sottiaux",
-      "summary": "Highlighted OpenAI work patching open-source software and said ChatGPT answer quality will improve by year end. He also noted dots are becoming a primary way to get work done at OpenAI."
-    },
-    {
-      "name": "Sam Altman",
-      "summary": "Shared a link he called really good and posted a short reply about Jensen."
-    },
-    {
-      "name": "Matt Turck",
-      "summary": "Posted brief commentary on Jensen returning and a joke about AI news."
+      "summary": "Argued that models have passed what some customers need, and that society has natural limits on how fast knowledge and business processes can change."
     },
     {
       "name": "Peter Yang",
-      "summary": "Reported that ChatGPT Dots still feels buggy, sending emails without review and stopping responses. Other posts are personal or minor."
+      "summary": "Published a free 17-minute Antigravity course on Gemini, with tips on multi-agent planning and remote control. Other posts were minor."
+    },
+    {
+      "name": "Amjad Masad",
+      "summary": "Argued token demand grows in step functions with each harness step, and that sovereign AI demand matters beyond Nvidia. Also shared a 3B local Muse."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Posted a list of 2026 pitches by company type, where each claims to control the universe. Other posts were personal."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Explained that the coding agent CLI is a thin wrapper around libfx, aiming for an embeddable agent kernel. Also open sourced a bg effect builder."
+    },
+    {
+      "name": "Unsupervised Learning",
+      "summary": "Released Ep 98, an emergency episode with Jordan Schneider of China Talk on the geopolitics of Jensen Huang's firing and return."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Posts were minor, mostly short remarks and links, including a first prompt for new models."
+    },
+    {
+      "name": "Aaron Levie",
+      "summary": "Argued that teams inside the same company now show very different output gains from AI, unlike past per-firm technology adoption."
+    },
+    {
+      "name": "Thariq",
+      "summary": "Posted a single short remark, \"you have to be bad at it for a while,\" which drew strong engagement."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Announced a banked reset and fast mode at no extra charge for ChatGPT Business teams through Dec 31, and promoted ChatGPT Business sign-ups."
     },
     {
       "name": "Swyx",
-      "summary": "Reacted to a Microsoft effort and suggested Alexandr Wang join to unite labs. Other posts are minor."
+      "summary": "Posted short reactions and a list of items from John on local-cloud environments, sandboxes, and dashboards."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Posted brief reactions, including a comment on Anthropic's valuation relative to its IPO price."
+    },
+    {
+      "name": "Zara Zhang",
+      "summary": "Posted a brief note on product positioning and clarity, plus a short remark on visuals."
+    },
+    {
+      "name": "Nan Yu",
+      "summary": "Posted only short personal remarks."
+    },
+    {
+      "name": "Madhu Guru",
+      "summary": "Argued that confident predictions about the Jensen saga were poor signals of being right, and that the info ecosystem rewards certainty."
     }
   ]
 }
