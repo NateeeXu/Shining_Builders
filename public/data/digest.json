@@ -1,105 +1,127 @@
 {
-  "generatedAt": "2026-11-26T06:12:57.152Z",
-  "sourceGeneratedAt": "2026-11-26T06:12:28.854Z",
+  "generatedAt": "2026-11-27T06:02:01.331Z",
+  "sourceGeneratedAt": "2026-11-27T06:01:30.758Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts centered on AI coding agents and harnesses, plus fallout from Jensen Huang's return to Nvidia and sovereign AI. Unsupervised Learning's emergency episode with Jordan Schneider covered the geopolitics, and Amjad Masad argued that token demand grows in step functions.",
+  "brief": "Today's posts centered on AI coding agents and model launches, including a GPT-6.2 billing correction and Andrej Karpathy's Civilization-style map built from US public data. Thariq announced he has joined OpenAI from Anthropic, the most notable item beyond the product news.",
   "themes": [
     {
-      "label": "Jensen Huang's Nvidia return",
-      "summary": "Builders framed Huang's return as a sovereign AI and US-China story, and debated how little predictions about it were worth.",
+      "label": "AI coding harnesses and agents",
+      "summary": "Builders discussed coding agents as the base for knowledge work, and harness speed, durability and skills like Frontend Slides.",
       "postIds": [
-        "podcast-36adfe0a-61bd-45ea-8069-54304171e5dd",
-        "tweet-2125353849057853876",
-        "tweet-2125355549202194801"
+        "tweet-2125837181398950233",
+        "tweet-2125650675665432995",
+        "tweet-2125685667833520237",
+        "tweet-2125649866902868355",
+        "tweet-2125478799387275571"
       ]
     },
     {
-      "label": "Agent harnesses and token demand",
-      "summary": "Builders described token use rising with each harness step, from autocomplete to swarms, and said adoption lags behind the tools.",
+      "label": "GPT-6.2 billing correction",
+      "summary": "OpenAI said a launch billing error discounted GPT-6.2 Astra and Sol usage, and it is fixing the error and adding a banked reset.",
       "postIds": [
-        "tweet-2125287538911072753",
-        "tweet-2125442246543814686",
-        "tweet-2125320020666565096"
+        "tweet-2125784147889393806",
+        "tweet-2125638790593274259"
       ]
     },
     {
-      "label": "Antigravity and Gemini workflows",
-      "summary": "Peter Yang shared a free course on running Gemini with Antigravity, covering orchestrator swarms, a /grill-me skill, and remote control.",
+      "label": "Gemini local voices and inbox use",
+      "summary": "Josh Woodward highlighted Gemini adding 66 local voices and accents and users applying it to tasks like Inbox Zero.",
       "postIds": [
-        "tweet-2125246815884984398",
-        "tweet-2125246828082057462"
+        "tweet-2125641468421546107",
+        "tweet-2125618295844004197",
+        "tweet-2125740026915152382"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Peter Steinberger",
-      "summary": "Reflected on a year of OC, saying it found a niche in prosumer and enterprise adoption and that the team now handles most of the work. Also noted a new memory system and an upcoming OpenClaw ID."
-    },
-    {
-      "name": "Boris Cherny",
-      "summary": "Announced that MCP servers can now ship their own skills, so Claude Code can use them out of the box."
-    },
-    {
-      "name": "Garry Tan",
-      "summary": "Argued that models have passed what some customers need, and that society has natural limits on how fast knowledge and business processes can change."
-    },
-    {
-      "name": "Peter Yang",
-      "summary": "Published a free 17-minute Antigravity course on Gemini, with tips on multi-agent planning and remote control. Other posts were minor."
-    },
-    {
-      "name": "Amjad Masad",
-      "summary": "Argued token demand grows in step functions with each harness step, and that sovereign AI demand matters beyond Nvidia. Also shared a 3B local Muse."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Posted a list of 2026 pitches by company type, where each claims to control the universe. Other posts were personal."
-    },
-    {
-      "name": "Guillermo Rauch",
-      "summary": "Explained that the coding agent CLI is a thin wrapper around libfx, aiming for an embeddable agent kernel. Also open sourced a bg effect builder."
-    },
-    {
-      "name": "Unsupervised Learning",
-      "summary": "Released Ep 98, an emergency episode with Jordan Schneider of China Talk on the geopolitics of Jensen Huang's firing and return."
-    },
-    {
-      "name": "Dan Shipper",
-      "summary": "Posts were minor, mostly short remarks and links, including a first prompt for new models."
-    },
-    {
       "name": "Aaron Levie",
-      "summary": "Argued that teams inside the same company now show very different output gains from AI, unlike past per-firm technology adoption."
-    },
-    {
-      "name": "Thariq",
-      "summary": "Posted a single short remark, \"you have to be bad at it for a while,\" which drew strong engagement."
+      "summary": "Wrote that coding shows how knowledge work will move from manual research and typing to coordinating agents that pursue goals."
     },
     {
       "name": "Thibault Sottiaux",
-      "summary": "Announced a banked reset and fast mode at no extra charge for ChatGPT Business teams through Dec 31, and promoted ChatGPT Business sign-ups."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Posted short reactions and a list of items from John on local-cloud environments, sandboxes, and dashboards."
-    },
-    {
-      "name": "Matt Turck",
-      "summary": "Posted brief reactions, including a comment on Anthropic's valuation relative to its IPO price."
+      "summary": "Explained a launch billing mistake that discounted GPT-6.2 Astra and Sol usage, saying the fix means users reach limits faster and adding a banked reset for paid plans."
     },
     {
       "name": "Zara Zhang",
-      "summary": "Posted a brief note on product positioning and clarity, plus a short remark on visuals."
-    },
-    {
-      "name": "Nan Yu",
-      "summary": "Posted only short personal remarks."
+      "summary": "Said their Frontend Slides skill reached 32k GitHub stars without promotion and asked why people still use it over slides from Claude or Codex. Also wrote that high-retention software is hard to build."
     },
     {
       "name": "Madhu Guru",
-      "summary": "Argued that confident predictions about the Jensen saga were poor signals of being right, and that the info ecosystem rewards certainty."
+      "summary": "Argued that AI native teams will push surrounding organizations to change, since faster coding does not yet raise shipped products or business impact in most companies."
+    },
+    {
+      "name": "Sam Altman",
+      "summary": "Announced a small test of Private Inference within OpenAI Private Intelligence, aimed at business privacy. Also posted a brief reply about hyperstitioning."
+    },
+    {
+      "name": "Training Data",
+      "summary": "Shared a podcast episode with OpenAI's Noam Brown on why game theory did not lead to general intelligence, recorded live at No Limit Finals."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Described the fx harness, which fits subagents, MCP, skills and sessions in 6mb, and announced a 10x workflow speedup. Also built lsx, a terminal file finder, with fx and DeepSeek subagents."
+    },
+    {
+      "name": "Ryo Lu",
+      "summary": "Mostly personal posts, including a cursor kitty and a name explanation."
+    },
+    {
+      "name": "Peter Steinberger",
+      "summary": "Criticized Google for restricting CLIs like gog while building an MCP."
+    },
+    {
+      "name": "Claude",
+      "summary": "Shared showcase posts: origami folded in code, a robot arm playing checkers, and a question about what people are exploring with Fable 5.2."
+    },
+    {
+      "name": "Andrej Karpathy",
+      "summary": "Built a Civilization-style US map from 31 public data sources, with 7 hours and 45K lines of code using Opus 5.5, mapping GDP to gold yield and industries to districts."
+    },
+    {
+      "name": "Josh Woodward",
+      "summary": "Announced 66 new Gemini local voices and accents and shared user examples of tasks done with Gemini, including Inbox Zero."
+    },
+    {
+      "name": "Swyx",
+      "summary": "Wrote about the pressures on new media founders and argued that cost per task hides model reliability problems. Also shared a short Anthropic blog link."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Announced the next guest in a weekly SF session, Stripe's Jeff Weinstein, on agent payments and commerce, and posted a coffee shop recommendation."
+    },
+    {
+      "name": "Nan Yu",
+      "summary": "Posted short comments on chat interfaces for AI and an Apple product wish, with mostly link-only posts."
+    },
+    {
+      "name": "Garry Tan",
+      "summary": "Highlighted a Nick Bostrom clip on superintelligence and shared a stat showing median startup growth of 10x with AI help."
+    },
+    {
+      "name": "Thariq",
+      "summary": "Announced joining OpenAI from Anthropic, saying the company builds AI products for over a billion people. Other posts were personal."
+    },
+    {
+      "name": "Amjad Masad",
+      "summary": "Said large scale software migration is now viable when results can be verified, which matters for aging critical infrastructure."
+    },
+    {
+      "name": "Dan Shipper",
+      "summary": "Posted brief link-only and personal posts, including praise for a leader using Every's dot."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Posted a single link with no commentary."
+    },
+    {
+      "name": "Peter Yang",
+      "summary": "Shared a desktop app project for cooking and a view that keeping humans able to follow AI actions is a major product challenge."
+    },
+    {
+      "name": "Matt Turck",
+      "summary": "Posted a joke about Jensen Huang and therapy, with no substantive product or industry content."
     }
   ]
 }
