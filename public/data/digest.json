@@ -1,127 +1,79 @@
 {
-  "generatedAt": "2026-11-27T06:02:01.331Z",
-  "sourceGeneratedAt": "2026-11-27T06:01:30.758Z",
+  "generatedAt": "2026-11-28T05:44:23.140Z",
+  "sourceGeneratedAt": "2026-11-28T05:43:56.706Z",
   "model": "claude-haiku-5-5",
   "language": "English",
-  "brief": "Today's posts centered on AI coding agents and model launches, including a GPT-6.2 billing correction and Andrej Karpathy's Civilization-style map built from US public data. Thariq announced he has joined OpenAI from Anthropic, the most notable item beyond the product news.",
+  "brief": "Thanksgiving posts dominated today's feed, with many builders sharing personal holiday messages. The most notable beyond that were Amjad Masad's note on Google's Gemini 4 on Replit and Thibault Sottiaux's brief Codex-related post, plus Aaron Levie on agent-centered services firms.",
   "themes": [
     {
-      "label": "AI coding harnesses and agents",
-      "summary": "Builders discussed coding agents as the base for knowledge work, and harness speed, durability and skills like Frontend Slides.",
+      "label": "Gemini 4 on Replit",
+      "summary": "Amjad Masad said Google's Gemini 4 is strong and pointed readers to try it on Replit.",
       "postIds": [
-        "tweet-2125837181398950233",
-        "tweet-2125650675665432995",
-        "tweet-2125685667833520237",
-        "tweet-2125649866902868355",
-        "tweet-2125478799387275571"
+        "tweet-2126018746884243652",
+        "tweet-2126201671026180469"
       ]
     },
     {
-      "label": "GPT-6.2 billing correction",
-      "summary": "OpenAI said a launch billing error discounted GPT-6.2 Astra and Sol usage, and it is fixing the error and adding a banked reset.",
+      "label": "Agents in services firms",
+      "summary": "Aaron Levie argued agents let services firms deliver projects with a 10X multiplier and reach smaller clients.",
       "postIds": [
-        "tweet-2125784147889393806",
-        "tweet-2125638790593274259"
-      ]
-    },
-    {
-      "label": "Gemini local voices and inbox use",
-      "summary": "Josh Woodward highlighted Gemini adding 66 local voices and accents and users applying it to tasks like Inbox Zero.",
-      "postIds": [
-        "tweet-2125641468421546107",
-        "tweet-2125618295844004197",
-        "tweet-2125740026915152382"
+        "tweet-2125983542475894821",
+        "tweet-2126106139582677088"
       ]
     }
   ],
   "builders": [
     {
-      "name": "Aaron Levie",
-      "summary": "Wrote that coding shows how knowledge work will move from manual research and typing to coordinating agents that pursue goals."
-    },
-    {
-      "name": "Thibault Sottiaux",
-      "summary": "Explained a launch billing mistake that discounted GPT-6.2 Astra and Sol usage, saying the fix means users reach limits faster and adding a banked reset for paid plans."
-    },
-    {
-      "name": "Zara Zhang",
-      "summary": "Said their Frontend Slides skill reached 32k GitHub stars without promotion and asked why people still use it over slides from Claude or Codex. Also wrote that high-retention software is hard to build."
-    },
-    {
-      "name": "Madhu Guru",
-      "summary": "Argued that AI native teams will push surrounding organizations to change, since faster coding does not yet raise shipped products or business impact in most companies."
-    },
-    {
-      "name": "Sam Altman",
-      "summary": "Announced a small test of Private Inference within OpenAI Private Intelligence, aimed at business privacy. Also posted a brief reply about hyperstitioning."
-    },
-    {
-      "name": "Training Data",
-      "summary": "Shared a podcast episode with OpenAI's Noam Brown on why game theory did not lead to general intelligence, recorded live at No Limit Finals."
-    },
-    {
-      "name": "Guillermo Rauch",
-      "summary": "Described the fx harness, which fits subagents, MCP, skills and sessions in 6mb, and announced a 10x workflow speedup. Also built lsx, a terminal file finder, with fx and DeepSeek subagents."
-    },
-    {
-      "name": "Ryo Lu",
-      "summary": "Mostly personal posts, including a cursor kitty and a name explanation."
-    },
-    {
-      "name": "Peter Steinberger",
-      "summary": "Criticized Google for restricting CLIs like gog while building an MCP."
-    },
-    {
-      "name": "Claude",
-      "summary": "Shared showcase posts: origami folded in code, a robot arm playing checkers, and a question about what people are exploring with Fable 5.2."
-    },
-    {
-      "name": "Andrej Karpathy",
-      "summary": "Built a Civilization-style US map from 31 public data sources, with 7 hours and 45K lines of code using Opus 5.5, mapping GDP to gold yield and industries to districts."
-    },
-    {
-      "name": "Josh Woodward",
-      "summary": "Announced 66 new Gemini local voices and accents and shared user examples of tasks done with Gemini, including Inbox Zero."
-    },
-    {
-      "name": "Swyx",
-      "summary": "Wrote about the pressures on new media founders and argued that cost per task hides model reliability problems. Also shared a short Anthropic blog link."
-    },
-    {
-      "name": "Nikunj Kothari",
-      "summary": "Announced the next guest in a weekly SF session, Stripe's Jeff Weinstein, on agent payments and commerce, and posted a coffee shop recommendation."
-    },
-    {
-      "name": "Nan Yu",
-      "summary": "Posted short comments on chat interfaces for AI and an Apple product wish, with mostly link-only posts."
-    },
-    {
-      "name": "Garry Tan",
-      "summary": "Highlighted a Nick Bostrom clip on superintelligence and shared a stat showing median startup growth of 10x with AI help."
-    },
-    {
-      "name": "Thariq",
-      "summary": "Announced joining OpenAI from Anthropic, saying the company builds AI products for over a billion people. Other posts were personal."
+      "name": "Latent Space",
+      "summary": "Published a podcast with Thariq Shihipar of OpenAI, recorded at the AIE Code Summit, on his thinking about building with agents and whether models should improve themselves headlessly."
     },
     {
       "name": "Amjad Masad",
-      "summary": "Said large scale software migration is now viable when results can be verified, which matters for aging critical infrastructure."
+      "summary": "Said Google really cooked with Gemini 4 and invited readers to try it on Replit."
     },
     {
-      "name": "Dan Shipper",
-      "summary": "Posted brief link-only and personal posts, including praise for a leader using Every's dot."
+      "name": "Aaron Levie",
+      "summary": "Argued agents create a big opportunity to build or transform services firms in advertising, IT, consulting and finance, with domain expertise still essential."
     },
     {
-      "name": "Aditya Agarwal",
-      "summary": "Posted a single link with no commentary."
+      "name": "Swyx",
+      "summary": "Noted an early win over Cursor and t3code on day 0, and argued agentic payments is a divisive theme for 2028. Also shared tips on refounding in public."
     },
     {
       "name": "Peter Yang",
-      "summary": "Shared a desktop app project for cooking and a view that keeping humans able to follow AI actions is a major product challenge."
+      "summary": "Mostly personal and minor posts about Trump accounts, a SpaceX share for kids, and a GTA VI joke."
+    },
+    {
+      "name": "Sam Altman",
+      "summary": "Praised Ven as an early believer in using OpenAI models to tackle Millennium Prize problems, and posted personal Thanksgiving messages about family."
+    },
+    {
+      "name": "Zara Zhang",
+      "summary": "Shared 12 tips for moving from LinkedIn to X, based on growing to 80k followers on X in one year."
     },
     {
       "name": "Matt Turck",
-      "summary": "Posted a joke about Jensen Huang and therapy, with no substantive product or industry content."
+      "summary": "Posted a short quip about VCs getting thanks for thought leadership while no founder is thanked."
+    },
+    {
+      "name": "Nikunj Kothari",
+      "summary": "Shared a fully local script that helps text people you spent time with, built with Claude by reading local iMessage and WhatsApp databases."
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "summary": "Posted a single short update: the banked reset is online."
+    },
+    {
+      "name": "Guillermo Rauch",
+      "summary": "Gave a Thanksgiving message on optimism and using agency to build the future."
+    },
+    {
+      "name": "Aditya Agarwal",
+      "summary": "Posted a short reaction with no substantive content."
+    },
+    {
+      "name": "Nan Yu",
+      "summary": "Said voice chat, image uploads and instructions that return a site are all available in ChatGPT today."
     }
   ]
 }
